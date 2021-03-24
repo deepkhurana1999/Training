@@ -11,7 +11,7 @@ namespace Events
         private int minute;
         private int second;
         public delegate void SecondChangeHandler(object obj, TimeInfoEventArgs args);
-        public SecondChangeHandler secondChanged;
+        public event SecondChangeHandler secondChanged;
         public void Run()
         {
             while(true)
