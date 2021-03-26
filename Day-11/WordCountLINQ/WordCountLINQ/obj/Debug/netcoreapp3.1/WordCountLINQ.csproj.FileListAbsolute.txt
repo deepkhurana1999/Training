@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\bin\Debug\netcoreapp3.1\WordCountLINQ.exe
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\bin\Debug\netcoreapp3.1\WordCountLINQ.deps.json
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\bin\Debug\netcoreapp3.1\WordCountLINQ.runtimeconfig.json
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\bin\Debug\netcoreapp3.1\WordCountLINQ.runtimeconfig.dev.json
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\bin\Debug\netcoreapp3.1\WordCountLINQ.dll
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\bin\Debug\netcoreapp3.1\WordCountLINQ.pdb
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.AssemblyInfo.cs
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.dll
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.pdb
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.genruntimeconfig.cache
+C:\Users\admin\source\repos\WordCountLINQ\WordCountLINQ\obj\Debug\netcoreapp3.1\WordCountLINQ.csprojAssemblyReference.cache
