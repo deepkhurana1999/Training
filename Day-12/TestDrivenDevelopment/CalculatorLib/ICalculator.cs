@@ -6,9 +6,7 @@ namespace CalculatorLib
 {
     public interface ICalculator
     {
-        void Addition(int num1, int num2);
-        void Subtraction(int num1, int num2);
-        void Multiplication(int num1, int num2);
-        void Division(int num1, int num2);
+        int Addition(int number1, int number2);
+        int Subtraction(int number1, int number2);
     }
 }

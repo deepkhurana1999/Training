@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PXyL4NMD2usTWhG1lXcDH/yi/4dwtOB67+v/t5mko4ci6vo/8aUrGXFMCNBW+1z6JAL2PMalcZ230CJ05/TclQ==",
+  "dgSpecHash": "7XV7lTKszG0qzUMbdZcbox8WFqhYhQA8qWF85mW1GycbtfZ2KnGC+iOHUPLsuDMZd0nt2LUKmjX91sOeAcbQWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\source\\repos\\TestDrivenDevelopment\\CalculatorLib\\CalculatorLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
