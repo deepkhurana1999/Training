@@ -1,0 +1,25 @@
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.exe
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.deps.json
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.runtimeconfig.json
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.runtimeconfig.dev.json
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.dll
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.pdb
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.AssemblyInfo.cs
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.dll
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.pdb
+C:\Users\admin\source\repos\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\bin\Debug\netcoreapp3.1\CalculatorDelegate.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\CalculatorDelegate\CalculatorDelegate\obj\Debug\netcoreapp3.1\CalculatorDelegate.genruntimeconfig.cache
