@@ -1,0 +1,16 @@
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.exe
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.deps.json
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.runtimeconfig.json
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.runtimeconfig.dev.json
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.dll
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.pdb
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.AssemblyInfo.cs
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.dll
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.pdb
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.genruntimeconfig.cache
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
+C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csproj.CopyComplete
