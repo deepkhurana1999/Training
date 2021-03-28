@@ -1,0 +1,26 @@
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.exe
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.deps.json
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.runtimeconfig.json
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.runtimeconfig.dev.json
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.dll
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.pdb
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.AssemblyInfo.cs
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.dll
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.pdb
+C:\Users\admin\source\repos\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\bin\Debug\netcoreapp3.1\PlayerDelegate.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\PlayerDelegate\PlayerDelegate\obj\Debug\netcoreapp3.1\PlayerDelegate.genruntimeconfig.cache
