@@ -1,0 +1,26 @@
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.AssemblyInfo.cs
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Events\Events\bin\Debug\netcoreapp3.1\Events.exe
+C:\Users\admin\source\repos\Events\Events\bin\Debug\netcoreapp3.1\Events.deps.json
+C:\Users\admin\source\repos\Events\Events\bin\Debug\netcoreapp3.1\Events.runtimeconfig.json
+C:\Users\admin\source\repos\Events\Events\bin\Debug\netcoreapp3.1\Events.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Events\Events\bin\Debug\netcoreapp3.1\Events.dll
+C:\Users\admin\source\repos\Events\Events\bin\Debug\netcoreapp3.1\Events.pdb
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.dll
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.pdb
+C:\Users\admin\source\repos\Events\Events\obj\Debug\netcoreapp3.1\Events.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\bin\Debug\netcoreapp3.1\Events.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\bin\Debug\netcoreapp3.1\Events.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\bin\Debug\netcoreapp3.1\Events.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\bin\Debug\netcoreapp3.1\Events.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\bin\Debug\netcoreapp3.1\Events.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\bin\Debug\netcoreapp3.1\Events.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-9\Events\Events\obj\Debug\netcoreapp3.1\Events.genruntimeconfig.cache
