@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\bin\Debug\netcoreapp3.1\CalculatorLib.deps.json
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.AssemblyInfo.cs
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\admin\source\repos\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\bin\Debug\netcoreapp3.1\CalculatorLib.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\CalculatorLib\CalculatorLib\obj\Debug\netcoreapp3.1\CalculatorLib.pdb
