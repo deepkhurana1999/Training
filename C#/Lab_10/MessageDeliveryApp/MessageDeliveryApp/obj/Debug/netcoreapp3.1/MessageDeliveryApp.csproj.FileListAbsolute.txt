@@ -1,0 +1,26 @@
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.exe
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.deps.json
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.runtimeconfig.json
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.runtimeconfig.dev.json
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.dll
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.pdb
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.AssemblyInfo.cs
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.dll
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.pdb
+C:\Users\admin\source\repos\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\bin\Debug\netcoreapp3.1\MessageDeliveryApp.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-10\MessageDeliveryApp\MessageDeliveryApp\obj\Debug\netcoreapp3.1\MessageDeliveryApp.genruntimeconfig.cache
