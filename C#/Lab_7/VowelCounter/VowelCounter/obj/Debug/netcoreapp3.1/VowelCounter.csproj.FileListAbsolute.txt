@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\bin\Debug\netcoreapp3.1\VowelCounter.exe
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\bin\Debug\netcoreapp3.1\VowelCounter.deps.json
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\bin\Debug\netcoreapp3.1\VowelCounter.runtimeconfig.json
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\bin\Debug\netcoreapp3.1\VowelCounter.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\bin\Debug\netcoreapp3.1\VowelCounter.dll
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\bin\Debug\netcoreapp3.1\VowelCounter.pdb
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.AssemblyInfo.cs
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.dll
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.pdb
+C:\Users\Admin\source\repos\VowelCounter\VowelCounter\obj\Debug\netcoreapp3.1\VowelCounter.genruntimeconfig.cache
