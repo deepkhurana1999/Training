@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\bin\Debug\netcoreapp3.1\Polymorphism_Demo.exe
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\bin\Debug\netcoreapp3.1\Polymorphism_Demo.deps.json
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\bin\Debug\netcoreapp3.1\Polymorphism_Demo.runtimeconfig.json
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\bin\Debug\netcoreapp3.1\Polymorphism_Demo.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\bin\Debug\netcoreapp3.1\Polymorphism_Demo.dll
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\bin\Debug\netcoreapp3.1\Polymorphism_Demo.pdb
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.AssemblyInfo.cs
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.dll
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.pdb
+C:\Users\Admin\source\repos\PolymorphismDemo\Polymorphism_Demo\obj\Debug\netcoreapp3.1\Polymorphism_Demo.genruntimeconfig.cache
