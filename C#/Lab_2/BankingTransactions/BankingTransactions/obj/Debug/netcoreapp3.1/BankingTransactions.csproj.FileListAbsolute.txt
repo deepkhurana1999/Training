@@ -14,3 +14,19 @@ C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\ne
 C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
 C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
 C:\Users\admin\source\repos\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\BankingTransactions.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_2\BankingTransactions\BankingTransactions\obj\Debug\netcoreapp3.1\BankingTransactions.genruntimeconfig.cache

@@ -6,12 +6,12 @@ namespace BankingTransactions
     {
         static void Main(string[] args)
         {
-            var deepAccount = new BankAccount("Customer Name", 20000);
-            deepAccount.MakeDeposit(500, DateTime.Now, "Initial Deposit");
+            var customerAccount = new BankAccount("Customer Name", 20000);
+            customerAccount.MakeDeposit(500, DateTime.Now, "Initial Deposit");
             try
             {
-                deepAccount.WithDraw(50, DateTime.Now, "1st Withdraw");
-                Console.WriteLine(deepAccount.GetAccount());
+                customerAccount.WithDraw(50, DateTime.Now, "1st Withdraw");
+                Console.WriteLine(customerAccount.GetAccount());
             }
             catch (Exception e)
             {
@@ -21,7 +21,7 @@ namespace BankingTransactions
 
 
 
-            var customerAccount = new BankAccount("Customer", 2000);
+            customerAccount = new BankAccount("Customer", 2000);
             customerAccount.MakeDeposit(1000, DateTime.Now, "Initial Deposit");
             try
             {
