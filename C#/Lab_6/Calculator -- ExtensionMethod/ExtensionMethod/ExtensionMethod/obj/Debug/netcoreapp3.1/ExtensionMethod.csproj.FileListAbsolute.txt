@@ -1,0 +1,64 @@
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.exe
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.deps.json
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.json
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.dev.json
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfo.cs
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CopyComplete
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\admin\source\repos\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-8\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Calculator -- ExtensionMethod\ExtensionMethod\ExtensionMethod\obj\Debug\netcoreapp3.1\ExtensionMethod.genruntimeconfig.cache

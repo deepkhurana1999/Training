@@ -1,0 +1,24 @@
+C:\Users\admin\source\repos\Deep\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.deps.json
+C:\Users\admin\source\repos\Deep\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\admin\source\repos\Deep\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.pdb
+C:\Users\admin\source\repos\Deep\infrastructure\bin\Debug\netcoreapp3.1\core.dll
+C:\Users\admin\source\repos\Deep\infrastructure\bin\Debug\netcoreapp3.1\core.pdb
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.AssemblyInfo.cs
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csproj.CopyComplete
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\admin\source\repos\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\bin\Debug\netcoreapp3.1\infrastructure.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\bin\Debug\netcoreapp3.1\core.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\bin\Debug\netcoreapp3.1\core.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\infrastructure\obj\Debug\netcoreapp3.1\infrastructure.pdb

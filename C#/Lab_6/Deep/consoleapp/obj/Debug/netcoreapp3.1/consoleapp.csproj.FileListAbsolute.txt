@@ -1,0 +1,36 @@
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.AssemblyInfo.cs
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.exe
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.deps.json
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.runtimeconfig.json
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.runtimeconfig.dev.json
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.dll
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.pdb
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\core.dll
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\core.pdb
+C:\Users\admin\source\repos\Deep\consoleapp\bin\Debug\netcoreapp3.1\infrastructure.pdb
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.csproj.CopyComplete
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.dll
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.pdb
+C:\Users\admin\source\repos\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\consoleapp.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\core.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\infrastructure.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\core.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\bin\Debug\netcoreapp3.1\infrastructure.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_6\Deep\consoleapp\obj\Debug\netcoreapp3.1\consoleapp.genruntimeconfig.cache
