@@ -11,3 +11,16 @@ C:\Users\admin\source\repos\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp
 C:\Users\admin\source\repos\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.dll
 C:\Users\admin\source\repos\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.pdb
 C:\Users\admin\source\repos\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\bin\Debug\netcoreapp3.1\firstConsoleApp.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\bin\Debug\netcoreapp3.1\firstConsoleApp.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\bin\Debug\netcoreapp3.1\firstConsoleApp.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\bin\Debug\netcoreapp3.1\firstConsoleApp.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\bin\Debug\netcoreapp3.1\firstConsoleApp.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\bin\Debug\netcoreapp3.1\firstConsoleApp.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_1\firstConsoleApp\firstConsoleApp\obj\Debug\netcoreapp3.1\firstConsoleApp.genruntimeconfig.cache
