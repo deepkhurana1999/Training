@@ -1,0 +1,26 @@
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.AssemblyInfo.cs
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.exe
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.deps.json
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.runtimeconfig.json
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.dll
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.pdb
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.dll
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.pdb
+C:\Users\Admin\source\repos\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\bin\Debug\netcoreapp3.1\GenericAndLINQ.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_19\GenericAndLINQ\GenericAndLINQ\obj\Debug\netcoreapp3.1\GenericAndLINQ.genruntimeconfig.cache
