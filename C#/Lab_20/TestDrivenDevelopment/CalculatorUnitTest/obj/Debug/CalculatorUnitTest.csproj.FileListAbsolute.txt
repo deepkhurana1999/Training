@@ -1,0 +1,32 @@
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.pdb
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorLib.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorLib.pdb
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csproj.CopyComplete
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.pdb

@@ -1,0 +1,26 @@
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.deps.json
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.pdb
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.AssemblyInfo.cs
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.dll
+C:\Users\admin\source\repos\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\bin\Debug\netstandard2.0\CalculatorLib.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_20\TestDrivenDevelopment\CalculatorLib\obj\Debug\netstandard2.0\CalculatorLib.pdb
