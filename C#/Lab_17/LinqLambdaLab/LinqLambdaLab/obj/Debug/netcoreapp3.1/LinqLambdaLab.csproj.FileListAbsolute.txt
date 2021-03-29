@@ -1,0 +1,39 @@
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.exe
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.deps.json
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.runtimeconfig.json
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.runtimeconfig.dev.json
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.dll
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.pdb
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.AssemblyInfo.cs
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.dll
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.pdb
+C:\Users\admin\source\repos\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-12\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\bin\Debug\netcoreapp3.1\LinqLambdaLab.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_17\LinqLambdaLab\LinqLambdaLab\obj\Debug\netcoreapp3.1\LinqLambdaLab.genruntimeconfig.cache
