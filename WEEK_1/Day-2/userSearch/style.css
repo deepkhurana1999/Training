@@ -1,0 +1,47 @@
+#navbar{
+    height:100px;
+    background-color: #AC2832;
+    width: 100%;
+    text-align: center;
+}
+
+#home{
+    background-color: #E3DEC1;
+}
+
+.danger-text-center{
+    font-family: 'Montserrat', sans-serif;
+    color:aliceblue
+}
+
+input#userInput.formControl{
+    border:3px solid #AC2832;
+    width:500px;
+    height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.name{
+    
+    color: #222930;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.img-thumbnail{
+    width:100px;
+    height:100px;
+    float: right;
+    margin-right:150px;
+    margin-bottom: 10px;
+}
+.row{
+    margin-top: 30px;
+}
+.url{
+   font-style: bold;
+   font-size: 10px;
+   font-weight: bold;
+}
