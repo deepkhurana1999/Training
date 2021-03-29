@@ -1,0 +1,39 @@
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.exe
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.deps.json
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.runtimeconfig.json
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.runtimeconfig.dev.json
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.dll
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.pdb
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.AssemblyInfo.cs
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.dll
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.pdb
+C:\Users\admin\source\repos\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\Day-11\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\bin\Debug\netcoreapp3.1\ProductGenerics.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_15\ProductGenerics\ProductGenerics\obj\Debug\netcoreapp3.1\ProductGenerics.genruntimeconfig.cache
