@@ -1,0 +1,26 @@
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.exe
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.deps.json
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.runtimeconfig.json
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.dll
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.pdb
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.AssemblyInfo.cs
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.dll
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.pdb
+C:\Users\Admin\source\repos\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.exe
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.deps.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.runtimeconfig.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\bin\Debug\netcoreapp3.1\GenericClassAndAction.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.dll
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.pdb
+C:\Users\Admin\OneDrive - Taazaa Tech Pvt Ltd\Documents\Github -- Deep\Training\C#\Lab_18\GenericClassAndAction\GenericClassAndAction\obj\Debug\netcoreapp3.1\GenericClassAndAction.genruntimeconfig.cache
