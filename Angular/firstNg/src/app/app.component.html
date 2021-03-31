@@ -1,26 +1,25 @@
-<div >
-  <div class="header">
-    <h1>Choose the T-Shirt</h1>
+<div class="container">
+  <div class="header" style="text-align: center; padding: 3%;">
+    <h1>{{title}}</h1>
   </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-  </div>
-  <div class="col-md-4">
-    <input type="number" class ="form-control" [(ngModel)]='height'>
-  </div>
-  <div class="col-md-4">
-    <input type="number" [(ngModel)]='width' class ="form-control">
-  </div>
-  <div class="col-md-2">
-  </div>
-</div>
-<div>
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="img-container col-md-4">
-      <img [src]='imgSource' [style.height.px]='height' [style.width.px]='width' (mouseenter)='changeTshirtMouseEnter()' (mouseleave)='changeTshirtMouseExit()'>
+
+  <div class="row" style="padding: 2%;">
+    <div class="col-md-2">
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <button class="form-control btn btn-danger" (click)='DataBindingDemo()'>Data Binding Demo</button>
+    </div>
+    <div class="col-md-4">
+      <button class="form-control btn btn-warning" (click)='ShowDirectiveDemo()' style="color: white;">Show Directive Demo</button>
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+
+  <div class="row" >
+  <div class="col-md-12">
+    <app-t-shirt-data-binding *ngIf='showDataBinding'></app-t-shirt-data-binding>
+    <app-products *ngIf='showDirective'></app-products>
+  </div>
   </div>
 </div>

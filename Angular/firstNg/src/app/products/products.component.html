@@ -1,0 +1,47 @@
+<div class="row">
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+                <th class='value-center'>
+                    ID
+                </th>
+                <th class='value-center'>
+                    Title
+                </th>
+                <th class='value-center'>
+                    Price
+                </th>
+                <th class='value-center'>
+                    Expiry Date
+                </th>
+                <th class='value-center'>
+                    Quantity
+                </th>
+                <th class='value-center'>
+                    in Stock
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of productList">
+                <td class='value-center'>{{p.ID}}</td>
+                <td class='value-center'>{{p.Title}}</td>
+                <td class='value-center'>{{p.Price | currency : 'INR'}}</td>
+                <td class='value-center'>{{p.ExpiryDate | date}}</td>
+                <td class='value-center'>{{p.Quantity}}</td>
+                <td class='value-center'><ng-container *ngIf="p.InStock; then instock else outofstock">
+                    </ng-container>
+                     
+                    <ng-template #instock>
+                        <i class="far fa-check-circle check"></i>
+                    </ng-template>
+                     
+                     <ng-template #outofstock>
+                        <i class="fas fa-times wrong"></i>
+                        <button type="button" class="btn btn-light">Order Now</button>
+                      </ng-template>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

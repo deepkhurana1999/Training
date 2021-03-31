@@ -6,14 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'firstNg';
-  width = 250;
-  height = 500;
-  imgSource = '../assets/front.jpg';
-  changeTshirtMouseEnter(): void{
-    this.imgSource = '../assets/back.jpg';
+  title = 'Angular Demo';
+  showDataBinding = true;
+  showDirective = false;
+
+  DataBindingDemo(): void{
+    this.showDataBinding = true;
+    this.showDirective = false;
   }
-  changeTshirtMouseExit(): void{
-    this.imgSource = '../assets/front.jpg';
+
+  ShowDirectiveDemo(): void{
+    this.showDataBinding = false;
+    this.showDirective = true;
   }
 }
