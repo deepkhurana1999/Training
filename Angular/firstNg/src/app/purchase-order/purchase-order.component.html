@@ -1,0 +1,34 @@
+<div>
+    <h1>{{orderDetails.PurchaseName}}</h1>
+    <p class="lead">Vendor : {{orderDetails.VendorName}} | Purchase Date : {{orderDetails.PurchaseDate}}</p>
+    <hr class="my-4">
+    <div class="text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class='value-center'>
+                        Name
+                    </th>
+                    <th class='value-center'>
+                        Price
+                    </th>
+                    <th class='value-center'>
+                        Quantity
+                    </th>
+                    
+               
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of orderDetails.Items">
+                    <td class='value-center'>{{item.Title}}</td>
+                    <td class='value-center'>{{item.Price}}</td>
+                    <td class='value-center'>{{item.Quantity}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="lead">
+        <a class="btn pull-right btn-danger" role="button">Total Cost : {{Price}} | Place Order</a>
+    </p>
+    
+</div> 

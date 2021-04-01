@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-12">
+        <mat-accordion >
+            <mat-expansion-panel *ngFor="let p of purchaseList" (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h2>{{p.PurchaseID}}</h2>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        <h2 class="text-info">{{p.PurchaseName}}</h2>
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <app-purchase-order [orderDetails]='p'></app-purchase-order>
+            </mat-expansion-panel>
+        </mat-accordion>
+
+        
+    </div>
+</div>
