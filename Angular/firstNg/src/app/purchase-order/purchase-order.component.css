@@ -1,0 +1,7 @@
+.hidden-input{
+    border: none !important; 
+    text-align: center !important;
+}
+.hidden-input:focus{
+    outline: none;
+}

@@ -20,9 +20,10 @@
             </thead>
             <tbody>
                 <tr *ngFor="let item of orderDetails.Items">
-                    <td class='value-center'>{{item.Title}}</td>
-                    <td class='value-center'>{{item.Price}}</td>
-                    <td class='value-center'>{{item.Quantity}}</td>
+                    <td class='value-center'> 
+                        {{item.Title}}</td>
+                    <td class='value-center'><input type="number" [(ngModel)]='item.Price' class="hidden-input" min="0" (input)='onPriceChanges()' ></td>
+                    <td class='value-center'><input type="number" class="hidden-input" min="0"  (input)='onPriceChanges()' [(ngModel)]='item.Quantity'></td>
                 </tr>
             </tbody>
         </table>
@@ -30,5 +31,5 @@
     <p class="lead">
         <a class="btn pull-right btn-danger" role="button">Total Cost : {{Price}} | Place Order</a>
     </p>
-    
-</div> 
+   
+</div>
