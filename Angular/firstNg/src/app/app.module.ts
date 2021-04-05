@@ -1,6 +1,7 @@
 import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
 
 import { AppComponent } from './app.component';
 import { TShirtDataBindingComponent } from './t-shirt-data-binding/t-shirt-data-binding.component';
@@ -11,6 +12,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { CustomErrorHandlerService } from './custom-error-handler.service';
 import { AppRoutingModule } from './app-routing.module';
+import { UnrelatedHostComponent } from './unrelated-host/unrelated-host.component';
+import { Child1Component } from './child1/child1.component';
+import { Child2Component } from './child2/child2.component';
+import { AttributeDemoComponent } from './attribute-demo/attribute-demo.component';
+
+import { ChangeColorDirective } from './change-color.directive';
+import { GlobalErrorComponent } from './global-error/global-error.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,15 +28,25 @@ import { AppRoutingModule } from './app-routing.module';
     ProductsComponent,
     PurchaseComponent,
     PurchaseOrderComponent,
+    UnrelatedHostComponent,
+    Child1Component,
+    Child2Component,
+    AttributeDemoComponent,
+    ChangeColorDirective,
+    GlobalErrorComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTableModule
   ],
+  
   providers: [{provide:ErrorHandler,useClass:CustomErrorHandlerService}],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

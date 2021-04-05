@@ -13,7 +13,7 @@ export class TShirtDataBindingComponent implements OnInit {
   }
   width = 250;
   height = 500;
-  errorVariable : any = undefined;
+  // errorVariable : any = undefined;
   imgSource = '../assets/front.jpg';
   
   changeTshirtMouseEnter(): void{
@@ -23,7 +23,7 @@ export class TShirtDataBindingComponent implements OnInit {
     this.imgSource = '../assets/front.jpg';
   }
 
-  GenerateError(): void{
-    this.errorVariable.sort();
-  }
+  // GenerateError(): void{
+  //   this.errorVariable.sort();
+  // }
 }

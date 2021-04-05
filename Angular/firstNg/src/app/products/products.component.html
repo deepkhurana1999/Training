@@ -1,47 +1,119 @@
-<div class="row">
-    <table class="table table-borderless">
-        <thead>
-            <tr>
-                <th class='value-center'>
-                    ID
-                </th>
-                <th class='value-center'>
-                    Title
-                </th>
-                <th class='value-center'>
-                    Price
-                </th>
-                <th class='value-center'>
-                    Expiry Date
-                </th>
-                <th class='value-center'>
-                    Quantity
-                </th>
-                <th class='value-center'>
-                    in Stock
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let p of productList">
-                <td class='value-center'>{{p.ID}}</td>
-                <td class='value-center'>{{p.Title}}</td>
-                <td class='value-center'>{{p.Price | currency : 'INR'}}</td>
-                <td class='value-center'>{{p.ExpiryDate | date}}</td>
-                <td class='value-center'>{{p.Quantity}}</td>
-                <td class='value-center'><ng-container *ngIf="p.InStock; then instock else outofstock">
-                    </ng-container>
-                     
-                    <ng-template #instock>
-                        <i class="far fa-check-circle check"></i>
-                    </ng-template>
-                     
-                     <ng-template #outofstock>
-                        <i class="fas fa-times wrong"></i>
-                        <button type="button" class="btn btn-light">Order Now</button>
-                      </ng-template>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<div class="row" style="justify-content: center;">
+    <div >
+        <nav>
+            <div class="nav nav-tabs" >
+            <button class="nav-link"  type="button" (click)='showTable = true;'>HTML Table</button>
+            <button class="nav-link" type="button" (click)='showTable = false;'>Angular Material Table</button>
+            </div>
+        </nav>
+    </div>
+    <ng-container *ngIf="showTable; then htmlTable else angularTable">
+    </ng-container>
+     
+    <ng-template #htmlTable>
+        <div style="width: 100%;">
+
+            <div>
+                <h1>
+                    HTML: Table
+                </h1>
+            </div>
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th class='value-center'>
+                        ID
+                    </th>
+                    <th class='value-center'>
+                        Title
+                    </th>
+                    <th class='value-center'>
+                        Price
+                    </th>
+                    <th class='value-center'>
+                        Expiry Date
+                    </th>
+                    <th class='value-center'>
+                        Quantity
+                    </th>
+                    <th class='value-center'>
+                        in Stock
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of productList">
+                    <td class='value-center'>{{p.ID}}</td>
+                    <td class='value-center'>{{p.Title}}</td>
+                    <td class='value-center'>{{p.Price | currency : 'INR'}}</td>
+                    <td class='value-center'>{{p.ExpiryDate | date}}</td>
+                    <td class='value-center'>{{p.Quantity}}</td>
+                    <td class='value-center'><ng-container *ngIf="p.InStock; then instock else outofstock">
+                        </ng-container>
+                         
+                        <ng-template #instock>
+                            <i class="far fa-check-circle check"></i>
+                        </ng-template>
+                         
+                         <ng-template #outofstock>
+                            <i class="fas fa-times wrong"></i>
+                            <button type="button" class="btn btn-light">Order Now</button>
+                          </ng-template>
+                    </td>
+                </tr>
+            </tbody>    
+        </table>
+    </div>
+    </ng-template>
+     
+     <ng-template #angularTable>
+        <div style="width: 100%;">
+
+            <div>
+                <h1>
+                    Angular Material: Table
+                </h1>
+            </div>
+        <table mat-table [dataSource]="productList" class="mat-elevation-z8">
+            <ng-container matColumnDef="ID">
+              <th mat-header-cell *matHeaderCellDef> ID </th>
+              <td mat-cell *matCellDef="let element"> {{element.ID}} </td>
+            </ng-container>
+    
+            <ng-container matColumnDef="Name">
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.Title}} </td>
+            </ng-container>
+          
+    
+            <ng-container matColumnDef="Price">
+              <th mat-header-cell *matHeaderCellDef> Price </th>
+              <td mat-cell *matCellDef="let element"> {{element.Price | currency: 'INR'}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="Quantity">
+              <th mat-header-cell *matHeaderCellDef> Quantity </th>
+              <td mat-cell *matCellDef="let element"> {{element.Quantity}} </td>
+            </ng-container>
+    
+            <ng-container matColumnDef="Expiry Date">
+                <th mat-header-cell *matHeaderCellDef> Expiry Date </th>
+                <td mat-cell *matCellDef="let element"> {{element.ExpiryDate | date}} </td>
+              </ng-container>
+              
+          
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+        </div>
+      </ng-template>
+      <div class="row">
+        <div class="col-md-12">
+          <footer>
+            <p>In this demo we are using ngFor, ngIf for displaying all attribute of table and also showing material table of angular using mat-table.</p>
+            
+          </footer>
+        </div>
+      </div>
+    
 </div>

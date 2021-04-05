@@ -1,14 +1,18 @@
-<div class="row">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-4">
-      <input type="number" class ="form-control" [(ngModel)]='height'>
-    </div>
-    <div class="col-md-4">
-      <input type="number" [(ngModel)]='width' class ="form-control">
-    </div>
-    <div class="col-md-2">
-    </div>
+<div>
+  <div style="text-align: center; margin-top: 25px; margin-bottom: 25px;">
+    <h1 style="font-size: 48px">Data Binding</h1>
+  </div>
+  <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-4">
+        <input type="number" class ="form-control" [(ngModel)]='height'>
+      </div>
+      <div class="col-md-4">
+        <input type="number" [(ngModel)]='width' class ="form-control">
+      </div>
+      <div class="col-md-2">
+      </div>
   </div>
   <div>
     <div class="row" style="justify-content: center;">
@@ -17,7 +21,17 @@
         <img [src]='imgSource' [style.height.px]='height' [style.width.px]='width' (mouseenter)='changeTshirtMouseEnter()' (mouseleave)='changeTshirtMouseExit()'>
       </div>
     </div>
-    <div class="col-md-4">
+    <!-- <div class="col-md-4">
       <button class="form-control btn btn-outline-danger" (click)='GenerateError()' >Generate error</button>
+    </div> -->
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <footer>
+        <p>In this demo we are using two way data binding using ngModel and  event binding on the two events mouseenter and mouseleave. The two input boxes are use to set the height and width of the image or to modify the dimensions of the image.</p>
+        
+      </footer>
     </div>
   </div>
+</div>

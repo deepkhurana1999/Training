@@ -6,15 +6,19 @@ import { IProduct } from './IProduct';
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
+
+
 export class ProductsComponent implements OnInit {
 
   constructor(private dataService: DataService) { }
 
+  showTable: boolean = true;
   ngOnInit(): void {
     this.productList = this.dataService.GetProductList();
   }
 
   productList: IProduct[] = [];
-
+  displayedColumns: string[] = ['ID', 'Name', 'Price', 'Quantity', 'Expiry Date'];
+  
   
 }

@@ -1,0 +1,39 @@
+<div class="row" style="display: block;">
+    <div class="header">
+        <h1>{{data.Title}}</h1>
+    </div>
+    <div>
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th class='value-center'>
+                        ID
+                    </th>
+                    <th class='value-center'>
+                        Title
+                    </th>
+                    <th class='value-center'>
+                        Price
+                    </th>
+                    <th class='value-center'>
+                        Expiry Date
+                    </th>
+                    <th class='value-center'>
+                        Quantity
+                    </th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class='value-center'>{{data.ID}}</td>
+                    <td class='value-center'>{{data.Title}}</td>
+                    <td class='value-center'>{{data.Price | currency : 'INR'}}</td>
+                    <td class='value-center'>{{data.ExpiryDate | date}}</td>
+                    <td class='value-center'>{{data.Quantity}}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+</div>
