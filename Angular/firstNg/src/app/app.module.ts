@@ -1,6 +1,6 @@
 import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatTableModule} from '@angular/material/table';
 
 import { AppComponent } from './app.component';
@@ -20,6 +20,9 @@ import { AttributeDemoComponent } from './attribute-demo/attribute-demo.componen
 import { ChangeColorDirective } from './change-color.directive';
 import { GlobalErrorComponent } from './global-error/global-error.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { ProductSearchPipe } from './product-search.pipe';
+import { ProductPriceFilterPipe } from './product-price-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { HomeComponent } from './home/home.component';
     AttributeDemoComponent,
     ChangeColorDirective,
     GlobalErrorComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    ProductSearchPipe,
+    ProductPriceFilterPipe
   ],
   imports: [
     BrowserModule,
@@ -42,7 +48,8 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     MatExpansionModule,
-    MatTableModule
+    MatTableModule,
+    ReactiveFormsModule
   ],
   
   providers: [{provide:ErrorHandler,useClass:CustomErrorHandlerService}],

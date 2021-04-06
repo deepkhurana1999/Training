@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AttributeDemoComponent } from './attribute-demo/attribute-demo.component';
 import { GlobalErrorComponent } from './global-error/global-error.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
 import { PurchaseComponent } from './purchase/purchase.component';
 import { TShirtDataBindingComponent } from './t-shirt-data-binding/t-shirt-data-binding.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
     { path: 'master-detail', component: PurchaseComponent, },
     { path: 'data-sharing', component: UnrelatedHostComponent, },
     { path: 'attribute-directive', component: AttributeDemoComponent, },
-    { path: 'global-errorhandler', component: GlobalErrorComponent}
+    { path: 'global-errorhandler', component: GlobalErrorComponent},
+    { path: 'login', component: LoginComponent}
 ];
 
 @NgModule({

@@ -1,10 +1,49 @@
 <div class="row" style="justify-content: center;">
-    <div>
+    <!-- <div>
         <input type="number" [(ngModel)]='data'  class ="form-control">
     </div>
     <div>
         <button class="form-control btn btn-outline-info cs-hover" (click)='setData()'>Set Price</button>
-    </div>
+    </div> -->
+    <form (ngSubmit)='updateData()' [formGroup]='productForm' novalidate class="form">
+        <div class="form-group">
+          <label >ID</label>
+          <input type="number"  formControlName='ID' class="form-control" >
+          <small class="form-text text-muted"></small>
+        </div>
+        <div class="alert alert-danger" *ngIf="productForm?.get('ID')?.hasError('required') && productForm?.get('ID')?.errors">ID is required</div>
+        <div class="form-group">
+            <label >Title</label>
+            <input type="text"  formControlName='Title' class="form-control" >
+        </div>
+        <div class="alert alert-danger" *ngIf="productForm?.get('Title')?.hasError('required') && productForm?.get('Title')?.errors">Title is required</div>
+        <div class="form-group">
+            <label >Price</label>
+            <input type="number"  formControlName='Price' class="form-control" >
+        </div>
+        <div class="alert alert-danger" *ngIf="productForm?.get('Price')?.dirty && productForm?.get('Price')?.errors && productForm?.get('Price')?.errors?.priceRange ">Price should be in between {{min}} and {{max}} years</div>
+             
+        <div class="form-group">
+            <label >Expiry Date</label>
+            <input type="text"  formControlName='ExpiryDate' class="form-control" >
+        </div>  
+        <div class="alert alert-danger" *ngIf="productForm?.get('ExpiryDate')?.hasError('required') && productForm?.get('ExpiryDate')?.errors">Expiry Date is required</div>
+        <div class="form-group">
+            <label >Quantity</label>
+            <input type="number"  formControlName='Quantity' class="form-control" >
+        </div>  
+        <div class="alert alert-danger" *ngIf="productForm?.get('Quantity')?.hasError('required') && productForm?.get('Quantity')?.errors">Quantity is required</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio"  [value]="true" formControlName="InStock">
+            <label class="form-check-label">In Stock</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio"  [value]="false" formControlName="InStock">
+            <label class="form-check-label">Out of Stock</label>
+          </div>
+        
+        <button type="submit" [disabled]="productForm.invalid" class="btn btn-primary">Update</button>
+      </form>
     <!-- <div>
         <button class="form-control btn btn-outline-info cs-hover" (click)='getData()'>Get Data</button>
     </div> -->

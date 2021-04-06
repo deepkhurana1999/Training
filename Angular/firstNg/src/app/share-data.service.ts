@@ -46,4 +46,10 @@ export class ShareDataService {
     this.productData.Price = price;
   }
 
+  setData(data: IProduct)
+  {
+      this.productData = data;
+      this.product$.next(this.productData);
+  }
+
 }

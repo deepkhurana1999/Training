@@ -21,7 +21,9 @@
                     <th class='value-center'>
                         Quantity
                     </th>
-                   
+                    <th class='value-center'>
+                        In Stock
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -31,6 +33,17 @@
                     <td class='value-center'>{{data.Price | currency : 'INR'}}</td>
                     <td class='value-center'>{{data.ExpiryDate | date}}</td>
                     <td class='value-center'>{{data.Quantity}}</td>
+                    <td class='value-center'><ng-container *ngIf="data.InStock; then instock else outofstock">
+                    </ng-container>
+                     
+                    <ng-template #instock>
+                        <i class="far fa-check-circle check"></i>
+                    </ng-template>
+                     
+                     <ng-template #outofstock>
+                        <i class="fas fa-times wrong"></i>
+                      </ng-template>
+                </td>
                 </tr>
             </tbody>
         </table>

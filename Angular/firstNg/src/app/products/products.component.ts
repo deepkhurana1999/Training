@@ -11,7 +11,8 @@ import { IProduct } from './IProduct';
 export class ProductsComponent implements OnInit {
 
   constructor(private dataService: DataService) { }
-
+  searchTitle: string;
+  searchPrice: number;
   showTable: boolean = true;
   ngOnInit(): void {
     this.productList = this.dataService.GetProductList();
