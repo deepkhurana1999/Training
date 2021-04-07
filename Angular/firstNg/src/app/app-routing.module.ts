@@ -18,7 +18,7 @@ const routes: Routes = [
     { path: 'attribute-directive', component: AttributeDemoComponent, },
     { path: 'global-errorhandler', component: GlobalErrorComponent},
     { path: 'login', component: LoginComponent},
-  { path: '', redirectTo:'home', pathMatch: 'full'}
+    { path: '', redirectTo: 'home', pathMatch:'full'}
 ];
 
 @NgModule({
