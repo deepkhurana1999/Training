@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AttributeDemoComponent implements OnInit {
 
   constructor() { }
-  color: string;
+  color: string = 'black';
   ngOnInit(): void {
   }
 
