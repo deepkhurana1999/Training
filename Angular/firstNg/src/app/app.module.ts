@@ -23,6 +23,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductSearchPipe } from './product-search.pipe';
 import { ProductPriceFilterPipe } from './product-price-filter.pipe';
+import { RxJsComponent } from './rx-js/rx-js.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ProductPriceFilterPipe } from './product-price-filter.pipe';
     HomeComponent,
     LoginComponent,
     ProductSearchPipe,
-    ProductPriceFilterPipe
+    ProductPriceFilterPipe,
+    RxJsComponent
   ],
   imports: [
     BrowserModule,

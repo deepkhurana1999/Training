@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
 import { PurchaseComponent } from './purchase/purchase.component';
+import { RxJsComponent } from './rx-js/rx-js.component';
 import { TShirtDataBindingComponent } from './t-shirt-data-binding/t-shirt-data-binding.component';
 import { UnrelatedHostComponent } from './unrelated-host/unrelated-host.component';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
     { path: 'attribute-directive', component: AttributeDemoComponent, },
     { path: 'global-errorhandler', component: GlobalErrorComponent},
     { path: 'login', component: LoginComponent},
+    { path: 'rxjs', component: RxJsComponent},
     { path: '', redirectTo: 'home', pathMatch:'full'}
 ];
 

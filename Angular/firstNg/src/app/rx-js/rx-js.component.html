@@ -1,0 +1,67 @@
+<div class="row" style="justify-content: center;">
+    <div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+        <nav>
+            <div class="nav nav-tabs" >
+            <button class="nav-link"  type="button" (click)='subjectType = 0;'>Subject</button>
+            <!-- <button class="nav-link" type="button" >Behaviour Subject</button> -->
+            
+            </div>
+        </nav>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" style="text-align: center;">
+            <h1>Please click on the button to subscribe</h1>
+            <button class="btn btn-danger"  type="button" (click)='start()'>Click to start to run</button>
+        </div>
+    </div>
+    <div class="row" style="text-align: center;">
+            <div class="col-md-4" >
+                        <button class="btn btn-primary" (click)="Subscriber1()">Subsciber 1</button><br>
+                        <br>
+                        <strong>
+                            <div *ngFor="let p of observer1" style="color:purple;">
+                                <p class="data1"> {{p}}</p>
+                            </div>
+                        <div *ngIf="showObserver1" style="color: dodgerblue;">
+                            Complete
+                        </div>
+                        </strong>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary" (click)="Subscriber2()">Subsciber 2</button><br>
+                        <br>
+                        <strong>
+                            <div *ngFor="let p of observer2" style="color:purple">
+                                <p class="data1"> {{p}}</p>
+                        </div>
+                        <div *ngIf="showObserver2" style="color: dodgerblue;">
+                            Complete
+                        </div>
+                        </strong>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary" (click)="Subscriber3()">Subsciber 3</button><br>
+                        <br>
+                        <strong>
+                            <div *ngFor="let p of observer3" style="color:purple">
+                                <p class="data1"> {{p}}</p>
+                        </div>
+                        <div *ngIf="showObserver3" style="color: dodgerblue;">
+                            Complete
+                        </div>
+                        </strong>
+                    </div>
+    </div>
+</div>    
+    <div class="row">
+        <div class="col-md-12">
+          <footer>
+            <p></p>
+          </footer>
+        </div>
+      </div>
+    
+</div>
