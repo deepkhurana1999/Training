@@ -17,7 +17,8 @@ const routes: Routes = [
     { path: 'data-sharing', component: UnrelatedHostComponent, },
     { path: 'attribute-directive', component: AttributeDemoComponent, },
     { path: 'global-errorhandler', component: GlobalErrorComponent},
-    { path: 'login', component: LoginComponent}
+    { path: 'login', component: LoginComponent},
+  { path: '', redirectTo:'home', pathMatch: 'full'}
 ];
 
 @NgModule({
