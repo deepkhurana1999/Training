@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\bin\Debug\netcoreapp3.1\CatalogManager.deps.json
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\bin\Debug\netcoreapp3.1\CatalogManager.dll
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\bin\Debug\netcoreapp3.1\CatalogManager.pdb
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\bin\Debug\netcoreapp3.1\ICatalog.dll
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\bin\Debug\netcoreapp3.1\ICatalog.pdb
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.csproj.CopyComplete
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.dll
+C:\Users\Admin\source\repos\ProductCatagory\CatalogManager\obj\Debug\netcoreapp3.1\CatalogManager.pdb

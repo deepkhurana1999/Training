@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\bin\Debug\netcoreapp3.1\ICatalog.deps.json
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\bin\Debug\netcoreapp3.1\ICatalog.dll
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\bin\Debug\netcoreapp3.1\ICatalog.pdb
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\obj\Debug\netcoreapp3.1\ICatalog.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\obj\Debug\netcoreapp3.1\ICatalog.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\obj\Debug\netcoreapp3.1\ICatalog.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\obj\Debug\netcoreapp3.1\ICatalog.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\obj\Debug\netcoreapp3.1\ICatalog.dll
+C:\Users\Admin\source\repos\ProductCatagory\ICatalog\obj\Debug\netcoreapp3.1\ICatalog.pdb

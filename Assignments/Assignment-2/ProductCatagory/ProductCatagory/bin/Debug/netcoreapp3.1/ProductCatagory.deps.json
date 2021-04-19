@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ProductCatagory/1.0.0": {
+        "dependencies": {
+          "CatalogMenuSystem": "1.0.0"
+        },
+        "runtime": {
+          "ProductCatagory.dll": {}
+        }
+      },
+      "CatalogManager/1.0.0": {
+        "dependencies": {
+          "ICatalog": "1.0.0"
+        },
+        "runtime": {
+          "CatalogManager.dll": {}
+        }
+      },
+      "CatalogMenuSystem/1.0.0": {
+        "dependencies": {
+          "CatalogManager": "1.0.0"
+        },
+        "runtime": {
+          "CatalogMenuSystem.dll": {}
+        }
+      },
+      "ICatalog/1.0.0": {
+        "runtime": {
+          "ICatalog.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProductCatagory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CatalogManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CatalogMenuSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICatalog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
