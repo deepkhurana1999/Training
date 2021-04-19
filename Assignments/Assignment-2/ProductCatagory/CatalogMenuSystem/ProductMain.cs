@@ -54,11 +54,17 @@ namespace CatalogMenuSystem
             Console.Write("Short Code: ");
             string shortCode = Console.ReadLine();
             shortCode.IsMandatory(ref shortCode);
-            while(ProductManager.shortCodeSet.Contains(shortCode))
+            while(shortCode.Length>4)
             {
-                Console.WriteLine("ShortCode must be unique. Please enter shortcode again.");
+                Console.WriteLine("ShortCode length must be smaller than 4. Please enter shortcode again.");
                 shortCode = Console.ReadLine();
             }
+            while (ProductManager.shortCodeSet.Contains(shortCode))
+            {
+                Console.WriteLine("ShortCode must be unique and it's length must be smaller than 4. Please enter shortcode again.");
+                shortCode = Console.ReadLine();
+            }
+            ProductManager.shortCodeSet.Add(shortCode);
             Console.Write("Description: ");
             string desc = Console.ReadLine();
             desc.IsMandatory(ref desc);

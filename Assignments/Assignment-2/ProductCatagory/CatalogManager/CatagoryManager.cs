@@ -11,13 +11,20 @@ namespace CatalogManager
         private static int idItr = 1;
         private static List<Catagory> _catagories;
         private static CatagoryManager catagoryManagerObj;
+        public static HashSet<string> shortCodeSet;
         
         private CatagoryManager(){
+            shortCodeSet = new HashSet<string>();
             _catagories = new List<Catagory>();
             _catagories.Add(new Catagory(idItr++, "Cat-1", "1", "abc"));
             _catagories.Add(new Catagory(idItr++, "Cat-2", "2", "abc"));
             _catagories.Add(new Catagory(idItr++, "Cat-3", "3", "abc"));
             _catagories.Add(new Catagory(idItr++, "Cat-4", "4", "abc"));
+
+            shortCodeSet.Add("Cat-1");
+            shortCodeSet.Add("Cat-2");
+            shortCodeSet.Add("Cat-3");
+            shortCodeSet.Add("Cat-4");
         }
 
         public static List<Catagory> Catagories

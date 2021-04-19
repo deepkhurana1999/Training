@@ -49,10 +49,24 @@ namespace CatalogMenuSystem
             CatagoryManager catagoryManager = CatagoryManager.getInstance();
             Console.Write("Name: ");
             string name = Console.ReadLine();
-            Console.Write("Short COde: ");
+            name.IsMandatory(ref name);
+            Console.Write("Short Code: ");
             string shortCode = Console.ReadLine();
+            shortCode.IsMandatory(ref shortCode);
+            while (shortCode.Length > 4)
+            {
+                Console.WriteLine("ShortCode length must be smaller than 4. Please enter shortcode again.");
+                shortCode = Console.ReadLine();
+            }
+            while (CatagoryManager.shortCodeSet.Contains(shortCode))
+            {
+                Console.WriteLine("ShortCode must be unique and it's length must be smaller than 4. Please enter shortcode again.");
+                shortCode = Console.ReadLine();
+            }
+            CatagoryManager.shortCodeSet.Add(shortCode);
             Console.Write("Description: ");
             string desc = Console.ReadLine();
+            desc.IsMandatory(ref desc);
             catagoryManager.AddCatagory(name, shortCode, desc);
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
