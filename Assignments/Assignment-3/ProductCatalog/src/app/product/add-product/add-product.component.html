@@ -1,1 +1,51 @@
-<p>add-product works!</p>
+<form (ngSubmit)='AddData()' [formGroup]='productForm' novalidate class="form">
+    <div class="form-group">
+        <label >Name</label>
+        <input type="text"  formControlName='Name' class="form-control" >
+        <small class="form-text" style="color:red;" *ngIf="productForm?.get('Name')?.touched && productForm?.get('Name')?.hasError('required') && productForm?.get('Name')?.errors">Name is required</small>
+    </div>
+         
+    <div class="form-group">
+        <label >Short Code</label>
+        <input type="text"  formControlName='ShortCode' class="form-control" >
+        <small class="form-text" style="color:red;" *ngIf="productForm?.get('ShortCode')?.touched && productForm?.get('ShortCode')?.hasError('required') && productForm?.get('ShortCode')?.errors">Short Code is required</small>
+    </div>  
+    
+    <div class="form-group">
+        <label >Description</label>
+        <input type="text"  formControlName='Description' class="form-control" >
+        <small class="form-text" style="color:red" *ngIf="productForm?.get('Description')?.hasError('required') && productForm?.get('Description')?.errors && productForm?.get('Description')?.touched">Desctiption is required</small>
+      </div>
+      
+    <div class="form-group">
+        <label >Manufacturer</label>
+        <input type="text"  formControlName='Manufacturer' class="form-control" >
+        <small style="color:red;" class="form-text" *ngIf="productForm?.get('Manufacturer')?.touched && productForm?.get('Manufacturer')?.hasError('required') && productForm?.get('Manufacturer')?.errors">Manufacturer is required</small>
+    </div>
+    <div class="form-group">
+            <label>Categories</label>
+            <ng-container formArrayName="Categories">
+                <div *ngFor="let _ of Categories.controls; let catIndex = index">
+                    <ng-container [formGroupName]="catIndex">
+                        <select class="form-control" (change)="OnChange($event, catIndex)">
+                            <option [value]="">Choose the category</option>
+                            <option class="cat-option" *ngFor="let category of categoryList" [value]="category.ID">{{category.Name}}</option>
+                        </select>
+                    </ng-container>    <div class="alert alert-danger" *ngIf="Categories.controls[catIndex]?.get('Name')?.dirty && Categories.controls[catIndex]?.get('Name')?.errors && Categories.controls[catIndex]?.get('Name')?.errors?.categoryerror ">Category is required and must be unique.</div>
+                        
+                </div>
+            </ng-container>
+            <button type="button" class="btn btn-outline-success" (click)="CategoryAdd()" style="border-radius: 100%;"><i class="fas fa-plus"></i></button>
+            <button type="button" class="btn btn-outline-danger" (click)="CategoryRemove()" style="border-radius: 100%;"><i class="fas fa-minus"></i></button>
+      
+            <small class="form-text" style="color:red;" *ngIf="productForm?.get('Categories')?.hasError('required') && productForm?.get('Categories')?.errors">Categories is required</small>
+      </div>
+
+      <div class="form-group">
+        <label >Selling Price</label>
+        <input type="number"  formControlName='SellingPrice' class="form-control" >
+        <small class="form-text" style="color:red;" *ngIf="productForm?.get('SellingPrice')?.touched && productForm?.get('SellingPrice')?.hasError('required') && productForm?.get('SellingPrice')?.errors">Selling Price is required</small>
+      </div>
+    
+    <button type="submit" [disabled]="productForm.invalid" class="btn btn-primary">Add</button>
+  </form>

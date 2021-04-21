@@ -1,3 +1,5 @@
+import { ICategory } from "../category/ICategory";
+
 export interface IProduct
 {
     ID: number,
@@ -5,6 +7,6 @@ export interface IProduct
     Description: string,
     ShortCode: string,
     Manufacturer: string,
-    SellingPrice: string,
-    Categories: string,
+    SellingPrice: number,
+    Categories: ICategory[],
 }

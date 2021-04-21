@@ -11,10 +11,13 @@ export class ListAllProductComponent implements OnInit {
 
   productList: IProduct[] = [];
   displayedColumns: string[] = ['ID', 'Name', 'Short Code', 'Manufacturer', 'Categories','Selling Price','Description'];
-  constructor(private dataService: DataServiceService) { }
+  constructor(private dataService: DataServiceService) { 
+    console.log(this.dataService.Categories);
+  }
 
   ngOnInit(): void {
     this.productList = this.dataService.GetProductList();
+    
   }
 
 }

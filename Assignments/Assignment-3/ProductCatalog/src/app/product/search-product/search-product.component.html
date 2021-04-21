@@ -71,7 +71,7 @@
     
         <ng-container matColumnDef="Categories">
             <th mat-header-cell *matHeaderCellDef> Categories </th>
-            <td mat-cell *matCellDef="let element"> {{element.Categories}} </td>
+            <td mat-cell *matCellDef="let element"> <div *ngFor="let category of element.Categories">{{category.Name}},</div> </td>
           </ng-container>
     
           <ng-container matColumnDef="Selling Price">
