@@ -2,7 +2,7 @@ import { R3TargetBinder } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormArray, FormControl, FormGroup, ValidatorFn, Validators } from '@angular/forms';
 import { ICategory } from 'src/app/category/ICategory';
-import { DataServiceService } from 'src/app/data-service.service';
+import { DataServiceService } from '../../data-service.service';
 import { IProduct } from '../IProduct';
 
 function CategoryValidator(obj:{uniqueSet: Set<string>}) : ValidatorFn
