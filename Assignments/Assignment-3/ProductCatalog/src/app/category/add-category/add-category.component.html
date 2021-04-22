@@ -1,27 +1,20 @@
 <form (ngSubmit)='AddData()' [formGroup]='categoryForm' novalidate class="form">
     <div class="form-group">
-      <label >ID</label>
-      <input type="number"  formControlName='ID' class="form-control" >
-      <small class="form-text text-muted"></small>
-    </div>
-    <div class="alert alert-danger" *ngIf="categoryForm?.get('ID')?.hasError('required') && categoryForm?.get('ID')?.errors">ID is required</div>
-    <div class="form-group">
         <label >Name</label>
         <input type="text"  formControlName='Name' class="form-control" >
+        <small class="form-text" style="color:red;" *ngIf="categoryForm?.get('Name')?.touched && categoryForm?.get('Name')?.hasError('required') && categoryForm?.get('Name')?.errors">Name is required</small>
     </div>
-    <div class="alert alert-danger" *ngIf="categoryForm?.get('Name')?.hasError('required') && categoryForm?.get('Name')?.errors">Name is required</div>
          
     <div class="form-group">
         <label >Short Code</label>
         <input type="text"  formControlName='ShortCode' class="form-control" >
+        <small class="form-text" style="color:red;" *ngIf="categoryForm?.get('ShortCode')?.touched && categoryForm?.get('ShortCode')?.hasError('required') && categoryForm?.get('ShortCode')?.errors">Short Code is required</small>
     </div>  
-    <div class="alert alert-danger" *ngIf="categoryForm?.get('ShortCode')?.hasError('required') && categoryForm?.get('ShortCode')?.errors">Short Code is required</div>
     <div class="form-group">
         <label >Description</label>
         <input type="text"  formControlName='Description' class="form-control" >
-        <small class="form-text text-muted"></small>
+        <small class="form-text" style="color:red" *ngIf="categoryForm?.get('Description')?.hasError('required') && categoryForm?.get('Description')?.errors && categoryForm?.get('Description')?.touched">Desctiption is required</small>
       </div>
-      <div class="alert alert-danger" *ngIf="categoryForm?.get('Description')?.hasError('required') && categoryForm?.get('Description')?.errors">Desctiption is required</div>
       
     <button type="submit" [disabled]="categoryForm.invalid" class="btn btn-primary">Add</button>
   </form>

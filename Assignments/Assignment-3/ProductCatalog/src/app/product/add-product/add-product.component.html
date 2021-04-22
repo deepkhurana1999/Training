@@ -8,7 +8,7 @@
     <div class="form-group">
         <label >Short Code</label>
         <input type="text"  formControlName='ShortCode' class="form-control" >
-        <small class="form-text" style="color:red;" *ngIf="productForm?.get('ShortCode')?.touched && productForm?.get('ShortCode')?.hasError('required') && productForm?.get('ShortCode')?.errors">Short Code is required</small>
+        <small class="form-text" style="color:red;" *ngIf="productForm?.get('ShortCode')?.touched && (productForm?.get('ShortCode')?.hasError('required') || productForm?.get('ShortCode')?.errors?.scodeerror)">Short Code is required and must be unique</small>
     </div>  
     
     <div class="form-group">
@@ -28,10 +28,9 @@
                 <div *ngFor="let _ of Categories.controls; let catIndex = index">
                     <ng-container [formGroupName]="catIndex">
                         <select class="form-control" (change)="OnChange($event, catIndex)">
-                            <option [value]="">Choose the category</option>
                             <option class="cat-option" *ngFor="let category of categoryList" [value]="category.ID">{{category.Name}}</option>
                         </select>
-                    </ng-container>    <div class="alert alert-danger" *ngIf="Categories.controls[catIndex]?.get('Name')?.dirty && Categories.controls[catIndex]?.get('Name')?.errors && Categories.controls[catIndex]?.get('Name')?.errors?.categoryerror ">Category is required and must be unique.</div>
+                    </ng-container><small style="color:red;" class="form-text" *ngIf="Categories.controls[catIndex]?.get('Name')?.invalid && Categories.controls[catIndex]?.get('Name')?.errors?.categoryerror">Category is required and must be unique.</small>
                         
                 </div>
             </ng-container>

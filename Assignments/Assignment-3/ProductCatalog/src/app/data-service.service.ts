@@ -11,14 +11,31 @@ export class DataServiceService {
 
   static productID = 0;
   static categoryID = 0;
+  static productShortCodeSet : Set<string>;
+  static categoryShortCodeSet : Set<string>;
+
   Products: IProduct[] = [];
   Categories: ICategory[] = [];
   
   category$: BehaviorSubject<ICategory[]>;
   product$: BehaviorSubject<IProduct[]>;
   
+  productSCodeSet$: BehaviorSubject<Set<string>>;
+  categorySCodeSet$: BehaviorSubject<Set<string>>;
+
   constructor()
   {
+    DataServiceService.productShortCodeSet = new Set<string>();
+    DataServiceService.categoryShortCodeSet = new Set<string>();
+    DataServiceService.productShortCodeSet.add("Norton");
+    DataServiceService.productShortCodeSet.add("P2");
+
+    DataServiceService.categoryShortCodeSet.add("Tech");
+    DataServiceService.categoryShortCodeSet.add("Luxu");
+    DataServiceService.categoryShortCodeSet.add("Comm");
+    DataServiceService.categoryShortCodeSet.add("Regular");
+    DataServiceService.categoryShortCodeSet.add("Smart");
+    
     this.Categories = [
       {
         ID: ++DataServiceService.categoryID,
@@ -73,9 +90,14 @@ export class DataServiceService {
         Categories: [this.Categories[0],this.Categories[4]]
       }
     ];
+
+   
     this.category$ = new BehaviorSubject(this.Categories);
     this.product$ = new BehaviorSubject(this.Products);
+    this.productSCodeSet$ = new BehaviorSubject(DataServiceService.productShortCodeSet);
+    this.categorySCodeSet$ = new BehaviorSubject(DataServiceService.categoryShortCodeSet);
   }
+
   GetProductList(): IProduct[]
   {
     return this.Products;
@@ -85,18 +107,42 @@ export class DataServiceService {
     return this.Categories;
   }
 
+  IsProductShortCodeUnique(shortcode: string)
+  {
+    return DataServiceService.productShortCodeSet.has(shortcode);
+  }
+
+  IsCategoryShortCodeUnique(shortcode: string)
+  {
+    return DataServiceService.categoryShortCodeSet.has(shortcode);
+  }
+
+  AddProductShortCodeUnique(shortcode: string)
+  {
+    DataServiceService.productShortCodeSet.add(shortcode);
+    this.productSCodeSet$.next(DataServiceService.productShortCodeSet);
+  }
+
+  
+  AddCategoryShortCodeUnique(shortcode: string)
+  {
+    DataServiceService.categoryShortCodeSet.add(shortcode);
+    this.categorySCodeSet$.next(DataServiceService.categoryShortCodeSet);
+  }
   AddProduct(product: IProduct)
   {
     product.ID = ++DataServiceService.productID;
     this.Products.push(product);
     this.product$.next(this.Products);
   }
+  
   AddCategory(category: ICategory)
   {
     category.ID = ++DataServiceService.categoryID;
     this.Categories.push(category);
     this.category$.next(this.Categories);
   }
+  
   DeleteCategory(cat: ICategory[])
   {
     for (const c of cat) {

@@ -18,6 +18,21 @@ function CategoryValidator(obj:{uniqueSet: Set<string>}) : ValidatorFn
     return null;
   };
 }
+
+function ShortCodeValidator(dataService: DataServiceService) : ValidatorFn
+{
+  return (control: AbstractControl): {[key:string] : boolean} | null =>
+  {
+    if(control.value !== undefined && control.value == "" || dataService.IsProductShortCodeUnique(control.value))
+    {
+      return {'scodeerror': true};
+    }else{
+      if(!dataService.IsProductShortCodeUnique(control.value))
+      dataService.AddProductShortCodeUnique(control.value);
+    }
+    return null;
+  };
+}
 @Component({
   selector: 'app-add-product',
   templateUrl: './add-product.component.html',
@@ -57,7 +72,7 @@ export class AddProductComponent implements OnInit {
       ID: new FormControl(null),
       Name: new FormControl(this.product.Name, [Validators.required]),
       Description: new FormControl(this.product.Description, [Validators.required]),
-      ShortCode: new FormControl(this.product.ShortCode,[Validators.required]),
+      ShortCode: new FormControl(this.product.ShortCode,[Validators.required, ShortCodeValidator(this.dataService)]),
       Manufacturer: new FormControl(this.product.Manufacturer, [Validators.required]),
       SellingPrice: new FormControl(null, [Validators.required]),
       Categories: new FormArray([], [Validators.required]),
@@ -85,6 +100,8 @@ export class AddProductComponent implements OnInit {
     }
   }
   CategoryRemove(){
+    if(this.productCategories.has(this.Categories.at(this.Categories.length-1).get("Name")?.value))
+      this.productCategories.delete(this.Categories.at(this.Categories.length-1).get("Name")?.value);
     this.Categories.removeAt(this.Categories.length-1);
   }
 

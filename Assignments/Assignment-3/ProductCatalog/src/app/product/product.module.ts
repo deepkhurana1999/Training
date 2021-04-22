@@ -10,6 +10,7 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 import { SearchProductComponent } from './search-product/search-product.component';
 import { HomeProductComponent } from './home-product/home-product.component';
+import {MatRadioModule} from '@angular/material/radio';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { HomeProductComponent } from './home-product/home-product.component';
     ProductRoutingModule,
     ReactiveFormsModule,
     MatTableModule,
-    FormsModule
+    FormsModule,
+    MatRadioModule
   ]
 })
 export class ProductModule { }
