@@ -19,17 +19,21 @@ namespace EcommerceMenuSystem
             Console.WriteLine(MenuSystem.Path);
             
             Console.WriteLine("1. Login\n2. Sign-up\n3. Exit the App!!");
-            Int32.TryParse("" + Console.ReadKey(true).KeyChar, out choice);
-
-            switch (choice)
+            do
             {
-                case 1: menuSystem.AddScreen(new LoginMain()); break;
-                case 2: //menuSystem.AddScreen(new SignUpMain());
+                Int32.TryParse("" + Console.ReadKey(true).KeyChar, out choice);
+
+                switch (choice)
+                {
+                    case 1: menuSystem.AddScreen(new LoginMain()); break;
+                    case 2: //menuSystem.AddScreen(new SignUpMain());
+                        Console.WriteLine("Under construction");
                         break;
-                case 3: return;
-                default:
-                    break;
-            }
+                    case 3: return;
+                    default:
+                        break;
+                }
+            } while (choice != noOfPaths);
             Console.WriteLine();
 
         }

@@ -15,9 +15,10 @@ namespace EcommerceManagement
         public List<User> Users { get { return _users; } }
         public Hashtable UserIDSet { get { return userIDSet; } }
         private UserManagement() {
-            _users = new List<User>(){new User("deep.khurana@taazaa.com", "asdf", new List<Product>()) }; 
+            _users = new List<User>(){new User("guest@taazaa.com", "asdf", new List<Product>(), false), new User("admin@taazaa.com", "asdf", new List<Product>(), true) }; 
             userIDSet = new Hashtable();
-            userIDSet.Add("deep.khurana@taazaa.com", 0);
+            userIDSet.Add("guest@taazaa.com", 0);
+            userIDSet.Add("admin@taazaa.com", 1);
         }
         public static UserManagement GetInstance()
         {

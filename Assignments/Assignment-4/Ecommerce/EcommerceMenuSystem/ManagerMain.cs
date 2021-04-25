@@ -17,6 +17,7 @@ namespace EcommerceMenuSystem
         public override void Run()
         {
             Console.Clear();
+            CategoryManager categoryManager = CategoryManager.getInstance();
             ProductManagement productManager = ProductManagement.GetInstance();
             Console.WriteLine(MenuSystem.Path);
             Console.WriteLine("1. Enter a product\n2. List all products\n3. Delete a product\n4. Search a product\n5. Return to previous menu");

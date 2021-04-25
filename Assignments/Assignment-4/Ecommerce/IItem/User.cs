@@ -14,11 +14,12 @@ namespace IItem
 
         private bool admin;
 
-        public User(string id, string password, List<Product> cart)
+        public User(string id, string password, List<Product> cart, bool admin)
         {
             this.user_id = id;
             this.password = password;
             this.cart = cart;
+            this.admin = admin;
             this.orders = new List<Product>();
         }
         public string Name { get { return name; } }

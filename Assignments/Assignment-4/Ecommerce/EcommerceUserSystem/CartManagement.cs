@@ -34,7 +34,7 @@ namespace EcommerceUserSystem
         {
             Console.WriteLine("S.No\t\tName");
             int i = 0;
-            _user.Cart.ForEach(x => { Console.WriteLine($"{i}\t\t{x.Name}"); i++; });
+            _user.Cart.ForEach(x => { Console.WriteLine($"{++i}\t\t{x.Name}"); });
 
         }
 
