@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Ecommerce\IItem\obj\Debug\netcoreapp3.1\IItem.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Ecommerce\IItem\obj\Debug\netcoreapp3.1\IItem.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Ecommerce\IItem\obj\Debug\netcoreapp3.1\IItem.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Ecommerce\IItem\obj\Debug\netcoreapp3.1\IItem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Ecommerce\IItem\bin\Debug\netcoreapp3.1\IItem.deps.json
+C:\Users\Admin\source\repos\Ecommerce\IItem\bin\Debug\netcoreapp3.1\IItem.dll
+C:\Users\Admin\source\repos\Ecommerce\IItem\bin\Debug\netcoreapp3.1\IItem.pdb
+C:\Users\Admin\source\repos\Ecommerce\IItem\obj\Debug\netcoreapp3.1\IItem.dll
+C:\Users\Admin\source\repos\Ecommerce\IItem\obj\Debug\netcoreapp3.1\IItem.pdb

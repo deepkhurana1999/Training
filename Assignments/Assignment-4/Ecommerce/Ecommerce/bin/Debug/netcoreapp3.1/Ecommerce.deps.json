@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ecommerce/1.0.0": {
+        "dependencies": {
+          "EcommerceMenuSystem": "1.0.0"
+        },
+        "runtime": {
+          "Ecommerce.dll": {}
+        }
+      },
+      "EcommerceManagement/1.0.0": {
+        "dependencies": {
+          "IItem": "1.0.0"
+        },
+        "runtime": {
+          "EcommerceManagement.dll": {}
+        }
+      },
+      "EcommerceMenuSystem/1.0.0": {
+        "dependencies": {
+          "EcommerceManagement": "1.0.0",
+          "EcommerceUserSystem": "1.0.0"
+        },
+        "runtime": {
+          "EcommerceMenuSystem.dll": {}
+        }
+      },
+      "EcommerceUserSystem/1.0.0": {
+        "dependencies": {
+          "EcommerceManagement": "1.0.0",
+          "IItem": "1.0.0"
+        },
+        "runtime": {
+          "EcommerceUserSystem.dll": {}
+        }
+      },
+      "IItem/1.0.0": {
+        "runtime": {
+          "IItem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ecommerce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcommerceManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcommerceMenuSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcommerceUserSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IItem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceMenuSystem.deps.json
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceMenuSystem.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceMenuSystem.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceManagement.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\IItem.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceManagement.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\IItem.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.csproj.CopyComplete
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\obj\Debug\netcoreapp3.1\EcommerceMenuSystem.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceUserSystem.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceMenuSystem\bin\Debug\netcoreapp3.1\EcommerceUserSystem.pdb
