@@ -14,9 +14,9 @@ C:\Users\Admin\source\repos\Ecommerce\Ecommerce\obj\Debug\netcoreapp3.1\Ecommerc
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\obj\Debug\netcoreapp3.1\Ecommerce.dll
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\obj\Debug\netcoreapp3.1\Ecommerce.pdb
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\obj\Debug\netcoreapp3.1\Ecommerce.genruntimeconfig.cache
-C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\EcommerceManagement.dll
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\EcommerceMenuSystem.dll
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\EcommerceMenuSystem.pdb
-C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\EcommerceManagement.pdb
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\EcommerceUserSystem.dll
 C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\EcommerceUserSystem.pdb
+C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\DatabaseManagement.dll
+C:\Users\Admin\source\repos\Ecommerce\Ecommerce\bin\Debug\netcoreapp3.1\DatabaseManagement.pdb

@@ -8,24 +8,25 @@
     ".NETCoreApp,Version=v3.1": {
       "EcommerceMenuSystem/1.0.0": {
         "dependencies": {
-          "EcommerceManagement": "1.0.0",
-          "EcommerceUserSystem": "1.0.0"
+          "DatabaseManagement": "1.0.0",
+          "EcommerceUserSystem": "1.0.0",
+          "IItem": "1.0.0"
         },
         "runtime": {
           "EcommerceMenuSystem.dll": {}
         }
       },
-      "EcommerceManagement/1.0.0": {
+      "DatabaseManagement/1.0.0": {
         "dependencies": {
           "IItem": "1.0.0"
         },
         "runtime": {
-          "EcommerceManagement.dll": {}
+          "DatabaseManagement.dll": {}
         }
       },
       "EcommerceUserSystem/1.0.0": {
         "dependencies": {
-          "EcommerceManagement": "1.0.0",
+          "DatabaseManagement": "1.0.0",
           "IItem": "1.0.0"
         },
         "runtime": {
@@ -45,7 +46,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EcommerceManagement/1.0.0": {
+    "DatabaseManagement/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

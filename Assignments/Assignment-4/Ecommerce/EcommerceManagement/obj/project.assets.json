@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\EcommerceManagement.csproj",
-      "projectName": "EcommerceManagement",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\EcommerceManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\DatabaseManagement.csproj",
+      "projectName": "DatabaseManagement",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\DatabaseManagement.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\obj\\",
       "projectStyle": "PackageReference",

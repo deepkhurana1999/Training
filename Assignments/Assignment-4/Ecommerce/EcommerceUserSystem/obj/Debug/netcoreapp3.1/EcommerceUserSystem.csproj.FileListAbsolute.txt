@@ -1,9 +1,7 @@
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\EcommerceUserSystem.deps.json
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\EcommerceUserSystem.dll
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\EcommerceUserSystem.pdb
-C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\EcommerceManagement.dll
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\IItem.dll
-C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\EcommerceManagement.pdb
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\IItem.pdb
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\obj\Debug\netcoreapp3.1\EcommerceUserSystem.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\obj\Debug\netcoreapp3.1\EcommerceUserSystem.AssemblyInfoInputs.cache
@@ -12,3 +10,5 @@ C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\obj\Debug\netcoreapp3.
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\obj\Debug\netcoreapp3.1\EcommerceUserSystem.csproj.CopyComplete
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\obj\Debug\netcoreapp3.1\EcommerceUserSystem.dll
 C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\obj\Debug\netcoreapp3.1\EcommerceUserSystem.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\DatabaseManagement.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceUserSystem\bin\Debug\netcoreapp3.1\DatabaseManagement.pdb

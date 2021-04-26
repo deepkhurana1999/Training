@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce", "Ecommerce\Ecom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IItem", "IItem\IItem.csproj", "{63BD6144-3E7A-404A-8ED7-542BF72B6543}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommerceManagement", "EcommerceManagement\EcommerceManagement.csproj", "{4D685BA0-3139-4DD0-8B80-1638806EBDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseManagement", "EcommerceManagement\DatabaseManagement.csproj", "{4D685BA0-3139-4DD0-8B80-1638806EBDB9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommerceMenuSystem", "EcommerceMenuSystem\EcommerceMenuSystem.csproj", "{184DBA0A-2CDE-45D0-8DA9-DD8B3D96D284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceUserSystem", "EcommerceUserSystem\EcommerceUserSystem.csproj", "{BD4CF59E-10F8-4519-A1CA-DEEED601A354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommerceUserSystem", "EcommerceUserSystem\EcommerceUserSystem.csproj", "{BD4CF59E-10F8-4519-A1CA-DEEED601A354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

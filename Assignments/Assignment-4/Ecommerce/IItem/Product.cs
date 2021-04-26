@@ -5,37 +5,28 @@ using System.Text;
 namespace IItem
 {
     ///<summary>
-    /// Represents a generalized type defination of objects that can be used as a base entity in ecommerce-system.
+    /// Represents a generalized type defination of all the products that provided by ecommerce-system.
     ///</summary>
-    public class Product
+    public class Product : IEcommerceItem
     {
-        private int id;
-        private string name;
-        private string manufacturer;
-        private string shortCode;
-        private List<Category> categories;
-        private double sellingPrice;
-        private string description;
-        private int quantity;
+        
+        public string Manufacturer { get; }
+        public string Description { get; }
+        public double SellingPrice { get; set; }
+        public int Quantity { get; set; }
 
-        public int ID { get { return id; } }
-        public string Name { get { return name; } }
-        public string Manufacturer { get { return manufacturer; } }
-        public string ShortCode { get { return shortCode; } }
-        public List<Category> Categories { get { return categories; } }
-        public string Description { get { return description; } }
-        public double SellingPrice { get { return sellingPrice; } }
-        public int Quantity { get { return quantity; } }
+        public int ID { get; }
+        public string Name { get; }
 
-        public Product(int id, string name, string manufacturer, string shortCode, List<Category> catagory, string desc, double sellPrice)
+        public Product(int id, string name, string manufacturer,string desc, double sellPrice)
         {
-            this.id = id;
-            this.name = name;
-            this.manufacturer = manufacturer;
-            this.shortCode = shortCode;
-            this.categories = catagory;
-            this.description = desc;
-            this.sellingPrice = sellPrice;
+            this.ID = id;
+            this.Name = name;
+            this.Manufacturer = manufacturer;
+            this.Description = desc;
+            this.SellingPrice = sellPrice;
         }
     }
+
+    
 }

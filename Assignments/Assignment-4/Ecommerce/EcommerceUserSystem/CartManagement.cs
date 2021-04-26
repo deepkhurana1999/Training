@@ -1,4 +1,4 @@
-﻿using EcommerceManagement;
+﻿using DatabaseManagement;
 using IItem;
 using System;
 using System.Collections.Generic;
@@ -6,14 +6,17 @@ using System.Text;
 
 namespace EcommerceUserSystem
 {
+
+    /// <summary>
+    /// Class to manage the cart of the user.
+    /// </summary>
     public class CartManagement
     {
-        static int totalPrice = 0;
         static CartManagement cartManagementObj;
-        static User _user;
-
+        static Customer _user;
+        
         private CartManagement() { }
-        public static CartManagement GetInstance(User user)
+        public static CartManagement GetInstance(Customer user)
         {
             _user = user;
             if (cartManagementObj == null)
@@ -40,7 +43,7 @@ namespace EcommerceUserSystem
 
         public void AddToCart(int id)
         {
-            _user.Cart.Add(ProductManagement.GetInstance().SearchItem(x => x.ID == id));
+            _user.Cart.Add(ProductDatabase.GetInstance().SearchItem(x => x.ID == id));
         }
 
         public bool IsCartEmpty()

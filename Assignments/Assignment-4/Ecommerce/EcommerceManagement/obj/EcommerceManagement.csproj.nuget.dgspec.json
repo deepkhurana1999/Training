@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\EcommerceManagement.csproj",
-        "projectName": "EcommerceManagement",
+        "projectName": "DatabaseManagement",
         "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\EcommerceManagement.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\obj\\",

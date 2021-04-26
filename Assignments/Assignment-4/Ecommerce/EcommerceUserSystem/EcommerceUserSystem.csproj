@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EcommerceManagement\EcommerceManagement.csproj" />
+    <ProjectReference Include="..\EcommerceManagement\DatabaseManagement.csproj" />
     <ProjectReference Include="..\IItem\IItem.csproj" />
   </ItemGroup>
 

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": {
       "EcommerceUserSystem/1.0.0": {
         "dependencies": {
-          "EcommerceManagement": "1.0.0",
+          "DatabaseManagement": "1.0.0",
           "IItem": "1.0.0"
         },
         "runtime": {
           "EcommerceUserSystem.dll": {}
         }
       },
-      "EcommerceManagement/1.0.0": {
+      "DatabaseManagement/1.0.0": {
         "dependencies": {
           "IItem": "1.0.0"
         },
         "runtime": {
-          "EcommerceManagement.dll": {}
+          "DatabaseManagement.dll": {}
         }
       },
       "IItem/1.0.0": {
@@ -36,7 +36,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EcommerceManagement/1.0.0": {
+    "DatabaseManagement/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

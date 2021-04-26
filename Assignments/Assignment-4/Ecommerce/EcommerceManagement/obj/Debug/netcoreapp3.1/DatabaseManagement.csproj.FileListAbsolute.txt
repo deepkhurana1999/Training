@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\bin\Debug\netcoreapp3.1\DatabaseManagement.deps.json
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\bin\Debug\netcoreapp3.1\DatabaseManagement.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\bin\Debug\netcoreapp3.1\DatabaseManagement.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\bin\Debug\netcoreapp3.1\IItem.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\bin\Debug\netcoreapp3.1\IItem.pdb
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.csproj.CopyComplete
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.dll
+C:\Users\Admin\source\repos\Ecommerce\EcommerceManagement\obj\Debug\netcoreapp3.1\DatabaseManagement.pdb

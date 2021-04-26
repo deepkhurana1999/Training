@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>DatabaseManagement</AssemblyName>
+    <RootNamespace>DatabaseManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IItem\IItem.csproj" />
+  </ItemGroup>
+
+</Project>

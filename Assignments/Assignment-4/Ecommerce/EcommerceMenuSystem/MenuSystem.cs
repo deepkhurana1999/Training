@@ -4,6 +4,9 @@ using System.Text;
 
 namespace EcommerceMenuSystem
 {
+    /// <summary>
+    /// Represent a system to manage menu of the console based application.
+    /// </summary>
     public class MenuSystem
     {
         private static Stack<Screen> menuTrace;

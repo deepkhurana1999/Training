@@ -1,8 +1,6 @@
-﻿using EcommerceManagement;
+﻿using DatabaseManagement;
 using EcommerceUserSystem;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EcommerceMenuSystem
 {
@@ -49,9 +47,8 @@ namespace EcommerceMenuSystem
         public override void Run()
         {
             Console.Clear();
-            UserManagement userManager = UserManagement.GetInstance();
-            CategoryManager categoryManager = CategoryManager.getInstance();
-            ProductManagement productManager = ProductManagement.GetInstance();
+            UserDatabase userManager = UserDatabase.GetInstance();
+            ProductDatabase productManager = ProductDatabase.GetInstance();
             Console.WriteLine(MenuSystem.Path);
             Console.WriteLine("1. Add To Cart\n2. Delete From Cart\n3. Return to previous screen");
 
@@ -74,9 +71,10 @@ namespace EcommerceMenuSystem
         public override void Run()
         {
             Console.Clear();
-            UserManagement userManager = UserManagement.GetInstance();
-            ProductManagement productManager = ProductManagement.GetInstance();
+            UserDatabase userManager = UserDatabase.GetInstance();
+            ProductDatabase productManager = ProductDatabase.GetInstance();
             
+
             Console.WriteLine(MenuSystem.Path);
             Console.WriteLine("List of Products:");
 
@@ -91,7 +89,7 @@ namespace EcommerceMenuSystem
 
                 Int32.TryParse("" + Console.ReadKey(false).KeyChar, out id);
                 
-                UserHolder.UserObject.CartSystem().AddToCart(id);
+                UserManagement.GetAsCustomer().CartSystem().AddToCart(id);
               
                 Console.WriteLine("\nWant to add more, press 1 otherwise 0 or any other key:");
                 Int32.TryParse("" + Console.ReadKey(false).KeyChar, out choice);
@@ -108,12 +106,12 @@ namespace EcommerceMenuSystem
         public override void Run()
         {
             Console.Clear();
-            UserManagement userManager = UserManagement.GetInstance();
-            ProductManagement productManager = ProductManagement.GetInstance();
+            UserDatabase userManager = UserDatabase.GetInstance();
+            ProductDatabase productManager = ProductDatabase.GetInstance();
             Console.WriteLine(MenuSystem.Path);
             Console.WriteLine("Items in your cart:");
 
-            UserHolder.UserObject.CartSystem().PrintAll();
+            UserManagement.GetAsCustomer().CartSystem().PrintAll();
 
             int sno;
 
@@ -121,11 +119,11 @@ namespace EcommerceMenuSystem
             {
                 Console.WriteLine("\nEnter the serial number of the product to delete from the cart:");
                 Int32.TryParse("" + Console.ReadKey(false).KeyChar, out sno);
-                if(!UserHolder.UserObject.CartSystem().IsCartEmpty())
+                if(!UserManagement.GetAsCustomer().CartSystem().IsCartEmpty())
                 {
                     try
                     {
-                        UserHolder.UserObject.CartSystem().DeleteFromCart(sno);
+                        UserManagement.GetAsCustomer().CartSystem().DeleteFromCart(sno);
                     }
                     catch(Exception ex)
                     {
@@ -151,17 +149,18 @@ namespace EcommerceMenuSystem
             Console.WriteLine(MenuSystem.Path);
             Console.WriteLine("Items in your cart:");
 
-            UserHolder.UserObject.CartSystem().PrintAll();
+            UserManagement.GetAsCustomer().CartSystem().PrintAll();
 
             Console.WriteLine("1. Confirm\n2. Cancel");
 
             Console.WriteLine("Enter the choice: ");
             do
             {
+                
                 Int32.TryParse("" + Console.ReadKey(false).KeyChar, out choice);
                 switch (choice)
                 {
-                    case 1:  UserHolder.UserObject.Orders.AddRange(UserHolder.UserObject.Cart); break;
+                    case 1: UserManagement.GetAsCustomer().OrderSystem().AddToOrder(); return;
                     case 2:  return;
                     default: break;
                 }

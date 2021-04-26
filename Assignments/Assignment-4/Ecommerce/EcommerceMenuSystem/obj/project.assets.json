@@ -2,24 +2,24 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "EcommerceManagement/1.0.0": {
+      "DatabaseManagement/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "IItem": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/EcommerceManagement.dll": {}
+          "bin/placeholder/DatabaseManagement.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EcommerceManagement.dll": {}
+          "bin/placeholder/DatabaseManagement.dll": {}
         }
       },
       "EcommerceUserSystem/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "EcommerceManagement": "1.0.0",
+          "DatabaseManagement": "1.0.0",
           "IItem": "1.0.0"
         },
         "compile": {
@@ -42,10 +42,10 @@
     }
   },
   "libraries": {
-    "EcommerceManagement/1.0.0": {
+    "DatabaseManagement/1.0.0": {
       "type": "project",
-      "path": "../EcommerceManagement/EcommerceManagement.csproj",
-      "msbuildProject": "../EcommerceManagement/EcommerceManagement.csproj"
+      "path": "../EcommerceManagement/DatabaseManagement.csproj",
+      "msbuildProject": "../EcommerceManagement/DatabaseManagement.csproj"
     },
     "EcommerceUserSystem/1.0.0": {
       "type": "project",
@@ -60,8 +60,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "EcommerceManagement >= 1.0.0",
-      "EcommerceUserSystem >= 1.0.0"
+      "DatabaseManagement >= 1.0.0",
+      "EcommerceUserSystem >= 1.0.0",
+      "IItem >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -96,11 +97,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\EcommerceManagement.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\EcommerceManagement.csproj"
+            "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\DatabaseManagement.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceManagement\\DatabaseManagement.csproj"
             },
             "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceUserSystem\\EcommerceUserSystem.csproj": {
               "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\EcommerceUserSystem\\EcommerceUserSystem.csproj"
+            },
+            "C:\\Users\\Admin\\source\\repos\\Ecommerce\\IItem\\IItem.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Ecommerce\\IItem\\IItem.csproj"
             }
           }
         }

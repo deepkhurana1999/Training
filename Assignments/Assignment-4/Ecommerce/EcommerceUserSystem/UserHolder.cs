@@ -5,7 +5,10 @@ using System.Text;
 
 namespace EcommerceUserSystem
 {
-    public static class UserHolder
+    /// <summary>
+    /// Class holding the object of the current user logged in the system.
+    /// </summary>
+    internal static class UserHolder
     {
         public static User UserObject { get; set; }
     }
