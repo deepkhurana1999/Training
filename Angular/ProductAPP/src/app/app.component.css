@@ -1,0 +1,47 @@
+#collapser:checked ~ .side-bar
+{
+    @apply w-20 duration-1000;   
+}
+
+#collapser:not(:checked) ~ .side-bar
+{
+    @apply w-64 duration-1000; 
+}
+
+#collapser:checked ~ .side-bar nav ul li div .opt-title
+{
+    display: none;
+}
+
+#collapser:checked ~ .side-bar nav ul li a .opt-title
+{
+    display: none;
+}
+
+#collapser
+{
+    opacity: 0;
+}
+
+.side-bar
+{
+    @apply bg-white w-64 rounded-lg text-gray-700 shadow-xl p-4;
+}
+
+.c-scroll{
+    overflow-y: auto !important;
+}
+
+.c-scroll::-webkit-scrollbar
+{
+	width: 10px;
+    margin-right: 100px;
+	background-color: #F5F5F5;
+}
+.c-scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(255, 255, 255);
+}

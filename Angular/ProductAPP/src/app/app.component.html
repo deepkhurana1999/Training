@@ -1,0 +1,32 @@
+<div class="flex h-screen px-8 py-8 bg-gray-300 space-x-2">
+  <input type="checkbox" style="left:50px; top:30px; position: relative;" id="collapser">
+  <aside class="side-bar" for="collapser" style="overflow: hidden;">
+    <nav>
+      <ul>
+        <li>
+          <div for="collapser" class="py-2 px-2 rounded flex items-center space-x-2 transition-colors duration-150 ease-in hover:text-black hover:no-underline">
+            <span class="text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </span>
+            <span class="opt-title">{{title}}</span>
+          </div>
+        </li>
+        <li *ngFor="let option of options">
+          <a [routerLink]="option.routes" class="hover:bg-gray-100 py-2 px-2 rounded flex items-center space-x-2 transition-colors duration-150 ease-in hover:text-black hover:no-underline">
+            <span class="text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" [attr.d]="option.dpath" />
+              </svg>
+            </span>
+            <span class="opt-title">{{option.name}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <div class="bg-white rounded-lg w-full text-gray-700 shadow-xl p-4 c-scroll">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.cst-p th
+{
+    padding: 10px 5px;
+    width: fit-content;
+    max-width: fit-content;
+}
+.cst-p tr td
+{
+    padding: 10px 5px;
+    width: fit-content;
+    max-width: fit-content;
+    border-bottom: 1px solid rgb(239 239 239);
+}
