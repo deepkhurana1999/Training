@@ -10,6 +10,7 @@ import { ProductDataService } from '../product-data.service';
 })
 export class HomeComponent implements OnInit {
 
+  enabled:number = 0;
   product$: Observable<Product[]>;
   constructor(private data:ProductDataService) {
     this.product$ = new Observable<Product[]>();

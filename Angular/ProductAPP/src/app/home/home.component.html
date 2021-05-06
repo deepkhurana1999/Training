@@ -1,8 +1,23 @@
-<div class="row">
-    <div class="col-md-6">
+<div class="bg-white shadow-inner">
+    <nav class="flex flex-col sm:flex-row">
+        <button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" [ngClass]="{'active' : enabled==0}" (click)="enabled=0">
+            Using Async Pipe
+        </button><button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" [ngClass]="{'active' : enabled==1}" (click)="enabled=1">
+            Using Subscribe
+        </button><button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" [ngClass]="{'active' : enabled==2}" (click)="enabled=2">
+            Using MatTable
+        </button>
+    </nav>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12" *ngIf="enabled==0">
         <app-list-product-with-async [products]='product$'></app-list-product-with-async>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-12" *ngIf="enabled==1">
         <app-list-product-with-subscribe [products]='product$'></app-list-product-with-subscribe>
+    </div>
+    <div class="col-md-12" *ngIf="enabled==2">
+        <app-listproductwithmat [products]='product$'></app-listproductwithmat>
     </div>
 </div>

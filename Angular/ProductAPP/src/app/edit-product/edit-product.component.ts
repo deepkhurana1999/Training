@@ -1,33 +1,30 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Product } from '../Product';
 import { ProductDataService } from '../product-data.service';
 
 @Component({
-  selector: 'app-updateproduct',
-  templateUrl: './updateproduct.component.html',
-  styleUrls: ['./updateproduct.component.css']
+  selector: 'app-edit-product',
+  templateUrl: './edit-product.component.html',
+  styleUrls: ['./edit-product.component.css']
 })
-export class UpdateproductComponent implements OnInit {
-
-  id: number = -1;
-  product: Product = {
-    id: -1,
-    title: '',
-    color: '',
-    quantity: -1,
-    price: -1,
-    expiryDate: '',
-    inStock: false
-  };
-
+export class EditProductComponent implements OnInit {
+  product: Product;
   productForm: FormGroup;
   product$: Observable<Product[]>;
-  
-  constructor(private data: ProductDataService) {
+  constructor(private route: ActivatedRoute, private data: ProductDataService){
     this.product$ = new Observable<Product[]>();
-    
+    this.product = {
+      id: -1,
+      title: '',
+      color: '',
+      quantity: 0,
+      inStock: false,
+      price: -1,
+      expiryDate: ''
+    }
     this.productForm = new FormGroup({
       id: new FormControl(null),
       title: new FormControl(null, [Validators.required]),
@@ -37,15 +34,14 @@ export class UpdateproductComponent implements OnInit {
       inStock: new FormControl(null, [Validators.required]),
       color: new FormControl(null, [Validators.required])
     });
-  }
+   }
 
   ngOnInit(): void {
+    
     this.product$ = this.data.GetAllProducts();
-  }
-
-  ProductSelector()
-  {
-    this.data.GetAProduct(this.id).subscribe(data=> {this.product = data; this.PushData();});
+    this.product.id = parseInt(this.route.snapshot.paramMap.get("id")!);
+    this.data.GetAProduct(this.product.id).subscribe(data=> {this.product = data; this.PushData();});
+    
   }
 
   PushData()
@@ -58,8 +54,10 @@ export class UpdateproductComponent implements OnInit {
     this.productForm.get("color")?.setValue(this.product.color);
     this.productForm.get("expiryDate")?.setValue(this.product.expiryDate.slice(0,10));
   }
+
   SaveProduct()
   {
     this.data.UpdateAProduct(this.productForm.value).subscribe();
   }
+  
 }

@@ -1,1 +1,45 @@
-<p>deleteproduct works!</p>
+Delete:
+<select class="form-select"  [(ngModel)]="id" (change)="ProductSelector()" >
+    <option [value]="-1">Select an ID</option>
+    <option *ngFor="let product of product$ | async" [value]="product.id">{{product.id}}</option>
+</select>
+
+<ng-container *ngIf="id>0">
+    <form (ngSubmit)='DeleteProduct()' [formGroup]='productForm' novalidate class="form">
+        <div class="form-group">
+            <label >Title</label>
+            <input type="text"  formControlName='title' class="form-control" >
+            <small class="form-text" style="color:red;" *ngIf="productForm?.get('title')?.touched && productForm?.get('title')?.hasError('required') && productForm?.get('title')?.errors">Title is required</small>
+        </div>
+             
+        <div class="form-group">
+            <label >Color</label>
+            <input type="text"  formControlName='color' class="form-control" >
+            <small class="form-text" style="color:red;" *ngIf="productForm?.get('color')?.touched && (productForm?.get('color')?.hasError('required'))">Color is required and must be unique</small>
+        </div>  
+        
+        <div class="form-group">
+            <label >Price</label>
+            <input type="number"  formControlName='price' class="form-control" >
+            <small class="form-text" style="color:red" *ngIf="productForm?.get('price')?.hasError('required') && productForm?.get('price')?.touched">Price is required</small>
+          </div>
+          
+        <div class="form-group">
+            <label >Expiry Date</label>
+            <input type="date"  formControlName='expiryDate' class="form-control" [disabled]="true">
+            <small style="color:red;" class="form-text" *ngIf="productForm?.get('expiryDate')?.touched && productForm?.get('expiryDate')?.hasError('required')">Expiry Date is required</small>
+        </div>
+        
+        <div class="form-group">
+          <label >Quantity</label>
+          <input type="number"  formControlName='quantity' class="form-control" [disabled]="true">
+          <small style="color:red;" class="form-text" *ngIf="productForm?.get('quantity')?.touched && productForm?.get('quantity')?.hasError('required')">Quantity is required</small>
+      </div>
+      
+        <div class="form-group">
+          <input type="checkbox" formControlName='inStock' [disabled]="true">
+          <span class="ml-2">In Stock</span>    
+      </div>
+        <button type="submit" (click)="DeleteProduct()" class="btn btn-primary">Delete</button>
+      </form>
+</ng-container>

@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
   },
   variants: {
+    backgroundColor: ['active'],
     extend: {},
   },
   plugins: [

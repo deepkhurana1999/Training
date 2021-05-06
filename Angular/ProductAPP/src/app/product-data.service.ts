@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, throwError  } from 'rxjs';
 import { environment } from 'src/environments/environment';
@@ -16,12 +16,13 @@ export class ProductDataService {
   {
     const apiUrl = environment['apiBaseUrl']+'products/';
     const headers = {'content-type':'application/json'}
-    return this.http.get<Product[]>(apiUrl,{headers:headers}).pipe(
+    let response =  this.http.get<Product[]>(apiUrl,{headers:headers}).pipe(
       tap(data=>console.log(data)),
       catchError(error=>{
         return throwError(error);
       })
     );
+    return response;
   }
 
   PostAProduct(product: Product): Observable<Product>
@@ -31,8 +32,20 @@ export class ProductDataService {
     const apiUrl = environment['apiBaseUrl']+'products/';
     const headers = {'content-type':'application/json','Accept':'application/json'}
     const body=JSON.stringify(product);
-    console.log(body);
-    return this.http.post<Product>('https://localhost:44355/api/products/',body,{headers:headers}).pipe(
+   
+    return this.http.post<Product>(apiUrl,body,{headers:headers}).pipe(
+      catchError(error=>{
+        return throwError(error);
+      })
+    );
+  }
+
+  GetAProduct(id: number): Observable<Product>
+  {
+    const apiUrl = environment['apiBaseUrl']+'products/'+id;
+    const headers = {'content-type':'application/json','Accept':'application/json'}
+   
+    return this.http.get<Product>(apiUrl, {headers:headers}).pipe(
       tap(data => console.log(data)),
       catchError(error=>{
         return throwError(error);
@@ -40,5 +53,28 @@ export class ProductDataService {
     );
   }
 
+  UpdateAProduct(product: Product)
+  {
+    const apiUrl = environment['apiBaseUrl']+'products/'+product.id;
+    const headers = {'content-type':'application/json','Accept':'application/json'}
+    const body=JSON.stringify(product);
+   
+    return this.http.put<Product>(apiUrl,body,{headers:headers}).pipe(
+      catchError(error=>{
+        return throwError(error);
+      })
+    );
+  }
+
+  DeleteAProduct(id:number)
+  {
+    const apiUrl = environment['apiBaseUrl']+'products/'+id;
+    const headers = {'content-type':'application/json','Accept':'application/json'};
+    return this.http.delete<Product>(apiUrl,{headers:headers}).pipe(
+      catchError(error=>{
+        return throwError(error);
+      })
+    );
+  }
   
 }

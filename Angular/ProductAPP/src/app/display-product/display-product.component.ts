@@ -1,34 +1,31 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Product } from '../Product';
 import { ProductDataService } from '../product-data.service';
-import { Router } from '@angular/router';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-deleteproduct',
-  templateUrl: './deleteproduct.component.html',
-  styleUrls: ['./deleteproduct.component.css']
+  selector: 'app-display-product',
+  templateUrl: './display-product.component.html',
+  styleUrls: ['./display-product.component.css']
 })
-export class DeleteproductComponent implements OnInit {
-
-  id: number = -1;
-  product: Product = {
-    id: -1,
-    title: '',
-    color: '',
-    quantity: -1,
-    price: -1,
-    expiryDate: '',
-    inStock: false
-  };
-
+export class DisplayProductComponent implements OnInit {
+  product: Product
   productForm: FormGroup;
   product$: Observable<Product[]>;
-  
-  constructor(private data: ProductDataService, private router: Router) {
+  editRoute: string = '';
+  constructor(private route: ActivatedRoute, private data: ProductDataService){
     this.product$ = new Observable<Product[]>();
-    
+    this.product = {
+      id: -1,
+      title: '',
+      color: '',
+      quantity: 0,
+      inStock: false,
+      price: -1,
+      expiryDate: ''
+    }
     this.productForm = new FormGroup({
       id: new FormControl(null),
       title: new FormControl({value:null,disabled:true}),
@@ -38,15 +35,12 @@ export class DeleteproductComponent implements OnInit {
       inStock: new FormControl({value:null,disabled:true}),
       color: new FormControl({value:null,disabled:true})
     });
-  }
+   }
 
   ngOnInit(): void {
     this.product$ = this.data.GetAllProducts();
-  }
-
-  ProductSelector()
-  {
-    this.data.GetAProduct(this.id).subscribe(data=> {this.product = data; this.PushData();});
+    this.product.id = parseInt(this.route.snapshot.paramMap.get("id")!);
+    this.data.GetAProduct(this.product.id).subscribe(data=> {this.product = data; this.PushData(); this.editRoute="../edit/"+this.product.id;});
   }
 
   PushData()
@@ -59,9 +53,9 @@ export class DeleteproductComponent implements OnInit {
     this.productForm.get("color")?.setValue(this.product.color);
     this.productForm.get("expiryDate")?.setValue(this.product.expiryDate.slice(0,10));
   }
+
   DeleteProduct()
   {
     this.data.DeleteAProduct(this.product.id).subscribe();
   }
-
 }

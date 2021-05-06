@@ -11,7 +11,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AddproductComponent } from './addproduct/addproduct.component';
 import { DeleteproductComponent } from './deleteproduct/deleteproduct.component';
 import { UpdateproductComponent } from './updateproduct/updateproduct.component';
-
+import { DisplayProductComponent } from './display-product/display-product.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
+import {MatTableModule} from '@angular/material/table';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ListproductwithmatComponent } from './listproductwithmat/listproductwithmat.component';
 
 @NgModule({
   declarations: [
@@ -21,14 +25,19 @@ import { UpdateproductComponent } from './updateproduct/updateproduct.component'
     ListProductWithSubscribeComponent,
     AddproductComponent,
     DeleteproductComponent,
-    UpdateproductComponent
+    UpdateproductComponent,
+    DisplayProductComponent,
+    EditProductComponent,
+    ListproductwithmatComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTableModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
