@@ -20,4 +20,11 @@ export class HomeComponent implements OnInit {
     this.product$ = this.data.GetAllProducts();
   }
 
+  DeleteProduct(id:number)
+  {
+    this.data.DeleteAProduct(id).subscribe(()=>{
+      this.product$ = this.data.GetAllProducts();});
+    //this.product$.subscribe((data)=>{console.log(data);});
+  }
+
 }

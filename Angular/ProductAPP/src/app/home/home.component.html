@@ -12,10 +12,10 @@
 
 <div class="row mt-4">
     <div class="col-md-12" *ngIf="enabled==0">
-        <app-list-product-with-async [products]='product$'></app-list-product-with-async>
+        <app-list-product-with-async [products]='product$' (DeleteEmitter)="DeleteProduct($event)"></app-list-product-with-async>
     </div>
     <div class="col-md-12" *ngIf="enabled==1">
-        <app-list-product-with-subscribe [products]='product$'></app-list-product-with-subscribe>
+        <app-list-product-with-subscribe [products]='product$' (DeleteEmitter)="DeleteProduct($event)"></app-list-product-with-subscribe>
     </div>
     <div class="col-md-12" *ngIf="enabled==2">
         <app-listproductwithmat [products]='product$'></app-listproductwithmat>

@@ -45,3 +45,16 @@
     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: rgb(255, 255, 255);
 }
+
+.c-hover:hover>span{
+    color: rgba(96, 165, 250);
+}
+
+.c-hover:hover{
+    background-color: rgba(243, 244, 246);
+}
+
+.active>span
+{
+    @apply text-blue-400 delay-100;
+}

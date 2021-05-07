@@ -13,9 +13,9 @@
             <span class="opt-title">{{title}}</span>
           </div>
         </li>
-        <li *ngFor="let option of options">
-          <a [routerLink]="option.routes" class="hover:bg-gray-100 py-2 px-2 rounded flex items-center space-x-2 transition-colors duration-150 ease-in hover:text-black hover:no-underline">
-            <span class="text-gray-400">
+        <li *ngFor="let option of options; let i = index">
+          <a (click)="enabled = i;" [ngClass]="{'active' : enabled==i}" [routerLink]="option.routes" style="color: rgba(156, 163, 175);" class="c-hover py-2 px-2 rounded flex items-center space-x-2 delay-75 transition-colors duration-150 ease-in hover:no-underline">
+            <span>
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" [attr.d]="option.dpath" />
               </svg>

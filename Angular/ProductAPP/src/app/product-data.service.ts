@@ -17,10 +17,7 @@ export class ProductDataService {
     const apiUrl = environment['apiBaseUrl']+'products/';
     const headers = {'content-type':'application/json'}
     let response =  this.http.get<Product[]>(apiUrl,{headers:headers}).pipe(
-      tap(data=>console.log(data)),
-      catchError(error=>{
-        return throwError(error);
-      })
+      catchError(error=> this.HandleError(error))
     );
     return response;
   }
@@ -34,9 +31,7 @@ export class ProductDataService {
     const body=JSON.stringify(product);
    
     return this.http.post<Product>(apiUrl,body,{headers:headers}).pipe(
-      catchError(error=>{
-        return throwError(error);
-      })
+      catchError(error=> this.HandleError(error))
     );
   }
 
@@ -46,10 +41,7 @@ export class ProductDataService {
     const headers = {'content-type':'application/json','Accept':'application/json'}
    
     return this.http.get<Product>(apiUrl, {headers:headers}).pipe(
-      tap(data => console.log(data)),
-      catchError(error=>{
-        return throwError(error);
-      })
+      catchError(error=> this.HandleError(error))
     );
   }
 
@@ -60,9 +52,7 @@ export class ProductDataService {
     const body=JSON.stringify(product);
    
     return this.http.put<Product>(apiUrl,body,{headers:headers}).pipe(
-      catchError(error=>{
-        return throwError(error);
-      })
+      catchError(error=> this.HandleError(error))
     );
   }
 
@@ -71,10 +61,12 @@ export class ProductDataService {
     const apiUrl = environment['apiBaseUrl']+'products/'+id;
     const headers = {'content-type':'application/json','Accept':'application/json'};
     return this.http.delete<Product>(apiUrl,{headers:headers}).pipe(
-      catchError(error=>{
-        return throwError(error);
-      })
+      catchError(error=> this.HandleError(error))
     );
   }
   
+  HandleError(error: any)
+  {
+    return throwError(error);
+  }
 }

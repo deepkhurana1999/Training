@@ -12,6 +12,7 @@ interface DashboardOptions{
 export class AppComponent implements OnInit{
  
   title = 'ProductAPP';
+  enabled: number = 0;
   options:DashboardOptions[]=[];
   ngOnInit(): void {
     this.options = [
