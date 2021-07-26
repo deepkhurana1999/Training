@@ -1,0 +1,14 @@
+{
+  "name": "lift",
+  "version": "1.0.0",
+  "description": "* A multi-floor building has a Lift in it.",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm run compile-typescript",
+    "compile-typescript": "tsc",
+    "service":"node ./js/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
