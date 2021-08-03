@@ -13,15 +13,15 @@ export class CategoryController {
 
     static errorResponse(res: Response) {
         console.log('Something happened, think about it!');
-        return res.status(400).send();
+        return res.status(400).json();
     }
 
     public async getCategories(req: Request, res: Response) {
         try {
             const result: ICategory[] | undefined = await this._categoryService.getCategory();
             if (!result || result.length === 0)
-                return res.status(204).send();
-            return res.send(JSON.stringify(result));
+                return res.status(204).json();
+            return res.json(JSON.stringify(result));
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -32,8 +32,8 @@ export class CategoryController {
         try {
             const result = await this._categoryService.getCategoryByID(req.params['id']);
             if (!result)
-                return res.status(204).send();
-            return res.send(JSON.stringify(result));
+                return res.status(204).json();
+            return res.json(JSON.stringify(result));
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -44,8 +44,8 @@ export class CategoryController {
         try {
             const result = await this._categoryService.saveCategory(req.body);
             if (!result)
-                return res.status(204).send();
-            return res.send(JSON.stringify(result));
+                return res.status(204).json();
+            return res.json(JSON.stringify(result));
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -56,8 +56,8 @@ export class CategoryController {
         try {
             const result = await this._categoryService.updateCategory(req.body,req.params['id']);
             if (!result)
-                return res.status(204).send();
-            return res.send(JSON.stringify(result));
+                return res.status(204).json();
+            return res.json(JSON.stringify(result));
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -67,7 +67,7 @@ export class CategoryController {
     public async deleteCategory(req: Request, res: Response) {
         try {
             await this._categoryService.deleteCategory(req.params['id']);
-            return res.status(200).send();
+            return res.status(200).json();
         }
         catch (err) {
             return CategoryController.errorResponse(res);

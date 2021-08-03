@@ -16,12 +16,12 @@ export default class ProductCategoryController {
         try {
             const result:ICategory[] | undefined = await this._productService.getProductCategory(req.params['id']);
             if(!result)
-                return res.status(204).send();
-            return res.send(result);
+                return res.status(204).json();
+            return res.json(result);
         }
         catch (err) {
             console.log('Something happened, think about it!');
-            return res.status(500).send();
+            return res.status(500).json();
         }
     }
 }

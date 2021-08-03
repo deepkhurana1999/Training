@@ -13,15 +13,15 @@ export default class StaffController {
 
     static errorResponse(res: Response) {
         console.log('Something happened, think about it!');
-        return res.status(400).send();
+        return res.status(400).json();
     }
 
     public async getStaff(req: Request, res: Response) {
         try {
             const result: IStaff[] | undefined = await this._staffService.getStaff();
             if (!result || result.length === 0)
-                return res.status(204).send();
-            return res.send(JSON.stringify(result));
+                return res.status(204).json();
+            return res.json(JSON.stringify(result));
         }
         catch (err) {
             return StaffController.errorResponse(res);
@@ -32,8 +32,8 @@ export default class StaffController {
         try {
             const result = await this._staffService.getStaffByID(req.params['id']);
             if (!result)
-                return res.status(204).send();
-            return res.send(JSON.stringify(result));
+                return res.status(204).json();
+            return res.json(JSON.stringify(result));
         }
         catch (err) {
             return StaffController.errorResponse(res);
@@ -43,7 +43,7 @@ export default class StaffController {
     public async deleteStaff(req: Request, res: Response) {
         try {
             await this._staffService.deleteStaff(req.params['id']);
-            return res.status(200).send();
+            return res.status(200).json();
         }
         catch (err) {
             return StaffController.errorResponse(res);

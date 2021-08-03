@@ -16,12 +16,12 @@ export default class ProductInventoryController {
         try {
             const result:IInventory[] | undefined = await this._productService.getProductInventory(req.params['id']);
             if(!result)
-                return res.status(204).send();
-            return res.send(result);
+                return res.status(204).json();
+            return res.json(result);
         }
         catch (err) {
             console.log('Something happened, think about it!');
-            return res.status(500).send();
+            return res.status(500).json();
         }
     }
 }

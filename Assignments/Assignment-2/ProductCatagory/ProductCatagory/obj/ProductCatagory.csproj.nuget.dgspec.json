@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj": {}
+    "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogManager\\CatalogManager.csproj": {
+    "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogManager\\CatalogManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogManager\\CatalogManager.csproj",
+        "projectUniqueName": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogManager\\CatalogManager.csproj",
         "projectName": "CatalogManager",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogManager\\CatalogManager.csproj",
+        "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogManager\\CatalogManager.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogManager\\obj\\",
+        "outputPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ICatalog\\ICatalog.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ICatalog\\ICatalog.csproj"
+              "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ICatalog\\ICatalog.csproj": {
+                "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ICatalog\\ICatalog.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj": {
+    "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj",
+        "projectUniqueName": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj",
         "projectName": "CatalogMenuSystem",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj",
+        "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\obj\\",
+        "outputPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,8 +94,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogManager\\CatalogManager.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogManager\\CatalogManager.csproj"
+              "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogManager\\CatalogManager.csproj": {
+                "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogManager\\CatalogManager.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ICatalog\\ICatalog.csproj": {
+    "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ICatalog\\ICatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ICatalog\\ICatalog.csproj",
+        "projectUniqueName": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ICatalog\\ICatalog.csproj",
         "projectName": "ICatalog",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ICatalog\\ICatalog.csproj",
+        "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ICatalog\\ICatalog.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ICatalog\\obj\\",
+        "outputPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ICatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj": {
+    "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
+        "projectUniqueName": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
         "projectName": "ProductCatagory",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
+        "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\obj\\",
+        "outputPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -214,8 +214,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj"
+              "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj": {
+                "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj"
               }
             }
           }

@@ -24,7 +24,7 @@ export default class SupplierValidator{
         let result = schema.validate(data);
 
         if (result.error) {
-            return res.status(400).send(result.error['details']);
+            return res.status(400).json(result.error['details']);
         }
 
         next();

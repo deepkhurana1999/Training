@@ -67,7 +67,6 @@ export class AddProductComponent implements OnInit {
   }
   Categories = new FormArray([], [Validators.required]);
   ngOnInit(): void {
-    // this.productForm.addControl( "ID", new FormControl(this.product.ID, [Validators.required]));
     this.productForm = new FormGroup({
       ID: new FormControl(null),
       Name: new FormControl(this.product.Name, [Validators.required]),

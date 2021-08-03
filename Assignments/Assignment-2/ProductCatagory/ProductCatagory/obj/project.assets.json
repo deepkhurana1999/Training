@@ -69,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
+      "projectUniqueName": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
       "projectName": "ProductCatagory",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
+      "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\ProductCatagory.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\ProductCatagory\\obj\\",
+      "outputPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\ProductCatagory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,8 +94,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj"
+            "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj": {
+              "projectPath": "C:\\Github\\Training\\Assignments\\Assignment-2\\ProductCatagory\\CatalogMenuSystem\\CatalogMenuSystem.csproj"
             }
           }
         }

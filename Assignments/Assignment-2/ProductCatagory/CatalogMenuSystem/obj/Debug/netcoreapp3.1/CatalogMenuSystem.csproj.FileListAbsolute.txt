@@ -12,3 +12,17 @@ C:\Users\Admin\source\repos\ProductCatagory\CatalogMenuSystem\bin\Debug\netcorea
 C:\Users\Admin\source\repos\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.csproj.CopyComplete
 C:\Users\Admin\source\repos\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.dll
 C:\Users\Admin\source\repos\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.pdb
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\CatalogMenuSystem.deps.json
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\CatalogMenuSystem.dll
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\CatalogMenuSystem.pdb
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\CatalogManager.dll
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\ICatalog.dll
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\CatalogManager.pdb
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\bin\Debug\netcoreapp3.1\ICatalog.pdb
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.csprojAssemblyReference.cache
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.AssemblyInfoInputs.cache
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.AssemblyInfo.cs
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.csproj.CoreCompileInputs.cache
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.csproj.CopyComplete
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.dll
+C:\Github\Training\Assignments\Assignment-2\ProductCatagory\CatalogMenuSystem\obj\Debug\netcoreapp3.1\CatalogMenuSystem.pdb
