@@ -15,10 +15,6 @@ export class Middlewares {
         const router = Router();
         init(router);
         app.use("/api", router);
-        app.use((req,res,next) => {
-            res.header('Content-Type','application/json');
-            next();
-        });
     }
 
 }
