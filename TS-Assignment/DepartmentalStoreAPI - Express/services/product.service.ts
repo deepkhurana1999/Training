@@ -3,8 +3,8 @@ import ProductRepository from "../db/respositories/product.repository";
 import { v4 as uuidv4 } from 'uuid';
 import { IProduct }from "../models/product.model";
 
-// import { IInventory } from "../models/previous/inventory.model";
 // import ISupplier from "../models/previous/supplier.model";
+import { IInventory } from "../models/inventory.model";
 import { ICategory } from "../models/category.model";
 import { Entities } from "../db/entities.db";
 
@@ -63,18 +63,18 @@ export default class ProductService {
     //     }
     // }
 
-    // async getProductInventory(id: string): Promise<IInventory[] | undefined>{
-    //     try {
-    //         const result:IInventory[] | undefined = await this._productRepository.getProductInventory(Number.parseInt(id));
-    //         if (!result || result.length === 0)
-    //             return;
+    async getProductInventory(id: string): Promise<any[] | undefined>{
+        try {
+            const result:any[] | undefined = await this._productRepository.getProductInventory(id);
+            if (!result || result.length === 0)
+                return;
 
-    //         return result;
-    //     }
-    //     catch (err) {
-    //         return;
-    //     }
-    // }
+            return result;
+        }
+        catch (err) {
+            return;
+        }
+    }
 
     async getProductCategory(id: string): Promise<any[] | undefined>{
         try {

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import { IInventory } from "../../models/previous/inventory.model";
+import { IInventory } from "../../models/inventory.model";
 import ProductService from "../../services/product.service";
 
 
@@ -14,7 +14,7 @@ export default class ProductInventoryController {
 
     async getProductInventory(req: Request, res: Response) {
         try {
-            const result:IInventory[] | undefined = await this._productService.getProductInventory(req.params['id']);
+            const result:any[] | undefined = await this._productService.getProductInventory(req.params['id']);
             if(!result)
                 return res.status(204).json();
             return res.json(result);

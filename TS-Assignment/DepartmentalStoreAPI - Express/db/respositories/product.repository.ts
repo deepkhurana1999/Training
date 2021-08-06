@@ -6,16 +6,22 @@ import { Entities } from "../entities.db";
 
 export default class ProductRepository extends BaseRepository {
 
-    async getProductInventory(id: number) {
+    async getProductInventory(id: string) {
         
         try {
-            const result = await db[Entities.Product].query(`Select "Inventory".* from "Product" 
-                                            JOIN "Inventory" on "Inventory"."ProductID" = "Product"."ID" 
-                                            where "Product"."ID" = $1`, [id]);
-            return result.rows;
+            
+            const result = await db[Entities.Product].findOne({
+                where:{ id: id },
+                include: {
+                    model: db[Entities.Inventory]
+                }
+            });
+
+            return result;
         }
         catch (err: any) {
-            throw new Error(`DB:RD1 Failed to fetch data, due to ${err}`);
+            console.log(new Error(`DB:RD Failed to fetch data, due to ${err}`));
+            return;
         }
         
     }
