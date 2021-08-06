@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import IStaff from "../models/staff.model";
+import {IStaff} from "../models/staff.model";
 import StaffService from "../services/staff.service";
 
 export default class StaffController {

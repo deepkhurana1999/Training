@@ -9,7 +9,7 @@ export interface IInventory{
 }
 
 export default (sequelize: any, DataTypes: any) => {
-  class Inventory extends Model {
+  class Inventory extends Model<IInventory> implements IInventory {
     id!: string;
     openingStock!: number;
     stockPurchased!: number;

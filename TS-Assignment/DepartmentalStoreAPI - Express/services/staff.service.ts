@@ -1,4 +1,4 @@
-import IStaff from "../models/staff.model";
+import { IStaff } from "../models/staff.model";
 import { Entities } from "../db/entities.db";
 import BaseRepository from "../db/respositories/base.repository";
 
@@ -25,7 +25,7 @@ export default class StaffController {
 
     public async getStaffByID(id: string): Promise<IStaff | undefined> {
         try {
-            const result = await this._staffRepository.getByID(Entities.Staff, Number.parseInt(id));
+            const result = await this._staffRepository.getByID(Entities.Staff, id);
             if (!result || result.length === 0)
                 return;
             return result;
@@ -37,7 +37,7 @@ export default class StaffController {
 
     public async deleteStaff(id: string): Promise<void> {
         try {
-            await this._staffRepository.deleteByID(Entities.Staff, Number.parseInt(id));
+            await this._staffRepository.deleteByID(Entities.Staff, id);
         }
         catch (err) {
             return;
