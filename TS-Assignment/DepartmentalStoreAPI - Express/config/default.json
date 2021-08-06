@@ -1,8 +1,0 @@
-{
-    "database":{
-        "host":"localhost",
-        "databaseName":"DepartmentalStoreDB3",
-        "username":"postgres",
-        "password":"Pass@123"
-    }
-}
