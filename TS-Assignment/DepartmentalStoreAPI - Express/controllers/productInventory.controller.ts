@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
-import { IInventory } from "../../models/inventory.model";
-import ProductService from "../../services/product.service";
+import { IInventory } from "../models/inventory.model";
+import ProductService from "../services/product.service";
 
 
 export default class ProductInventoryController {

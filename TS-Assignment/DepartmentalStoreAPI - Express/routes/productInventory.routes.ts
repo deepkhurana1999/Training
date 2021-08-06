@@ -1,5 +1,5 @@
 import { Router } from "express";
-import ProductInventoryController from "../controllers/previous/productInventory.controller";
+import ProductInventoryController from "../controllers/productInventory.controller";
 
 export default class ProductInventoryRoutes {
 
