@@ -1,6 +1,7 @@
 import { Router } from "express";
 
-import { ProductValidator } from "../validators/product.validtors";
+import { ProductValidator } from "../validators/product.validators";
+import UUIDValidator from "../validators/uuid.validators";
 import { ProductController } from "../controllers/product.controller";
 
 export default class ProductRoutes {
@@ -11,7 +12,7 @@ export default class ProductRoutes {
             await new ProductController().getProducts(req, res);
         });
         
-        router.get("/products/:id", async(req, res, next) => {
+        router.get("/products/:id", UUIDValidator.validate,async(req, res, next) => {
             await new ProductController().getProductByID(req, res);
         });
 
@@ -23,9 +24,9 @@ export default class ProductRoutes {
             await new ProductController().updateProduct(req, res);
         });
 
-        router.delete("/products/:id", async (req, res, next) => {
-            await new ProductController().deleteProduct(req, res);
-        });
+        // router.delete("/products/:id", async (req, res, next) => {
+        //     await new ProductController().deleteProduct(req, res);
+        // });
     }
 
 }

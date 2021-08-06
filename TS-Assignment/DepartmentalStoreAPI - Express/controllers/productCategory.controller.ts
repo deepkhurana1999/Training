@@ -14,7 +14,7 @@ export default class ProductCategoryController {
 
     async getProductCategory(req: Request, res: Response) {
         try {
-            const result:ICategory[] | undefined = await this._productService.getProductCategory(req.params['id']);
+            const result:any[] | undefined = await this._productService.getProductCategory(req.params['id']);
             if(!result)
                 return res.status(204).json();
             return res.json(result);

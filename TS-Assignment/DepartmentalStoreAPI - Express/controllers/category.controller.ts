@@ -21,7 +21,7 @@ export class CategoryController {
             const result: ICategory[] | undefined = await this._categoryService.getCategory();
             if (!result || result.length === 0)
                 return res.status(204).json();
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -33,7 +33,7 @@ export class CategoryController {
             const result = await this._categoryService.getCategoryByID(req.params['id']);
             if (!result)
                 return res.status(204).json();
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -45,7 +45,7 @@ export class CategoryController {
             const result = await this._categoryService.saveCategory(req.body);
             if (!result)
                 return res.status(204).json();
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return CategoryController.errorResponse(res);
@@ -57,7 +57,7 @@ export class CategoryController {
             const result = await this._categoryService.updateCategory(req.body,req.params['id']);
             if (!result)
                 return res.status(204).json();
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return CategoryController.errorResponse(res);

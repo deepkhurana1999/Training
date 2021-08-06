@@ -1,7 +1,7 @@
 import { Router } from "express";
 
 import SupplierController from "../controllers/supplier.controller";
-import SupplierValidator from "../validators/supplier.validtors";
+import SupplierValidator from "../validators/supplier.validators";
 
 export default class SupplierRoutes {
 

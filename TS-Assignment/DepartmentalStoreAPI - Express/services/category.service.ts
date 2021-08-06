@@ -1,6 +1,8 @@
-import BaseRepository from "../db/respositories/base.repository";
+import { v4 as uuidv4 } from 'uuid';
+
 import { ICategory } from "../models/category.model";
 import { Entities } from "../db/entities.db";
+import BaseRepository from "../db/respositories/base.repository";
 
 export default class CategoryService {
 
@@ -12,7 +14,7 @@ export default class CategoryService {
 
     public async getCategory():Promise<ICategory[] | undefined> {
         try {
-            const result: ICategory[] | undefined = await this._categoryService.get(Entities.Category);
+            const result: ICategory[] = await this._categoryService.get(Entities.Category);
             return result;
         }
         catch (err) {
@@ -22,7 +24,7 @@ export default class CategoryService {
 
     public async getCategoryByID(id: string): Promise<ICategory | undefined> {
         try {
-            const result: ICategory = await this._categoryService.getByID(Entities.Category, Number.parseInt(id));
+            const result: ICategory = await this._categoryService.getByID(Entities.Category, id);
             return result;
         }
         catch (err) {
@@ -32,7 +34,8 @@ export default class CategoryService {
 
     public async saveCategory(data: ICategory):Promise<ICategory | undefined> {
         try {
-            const result = await this._categoryService.add(Entities.Category, Object.values(data), Object.keys(data));
+            data.id = uuidv4();
+            const result = await this._categoryService.add(Entities.ProductCategories, data);
             return result;
         }
         catch (err) {
@@ -42,7 +45,7 @@ export default class CategoryService {
 
     public async updateCategory(data: ICategory, id: string):Promise<ICategory | undefined> {
         try {
-            const result = await this._categoryService.update(Entities.Category, Object.values(data), Object.keys(data), Number.parseInt(id));
+            const result = await this._categoryService.update(Entities.Category, data, id);
             return result;
         }
         catch (err) {
@@ -52,7 +55,7 @@ export default class CategoryService {
 
     public async deleteCategory(id: string):Promise<void> {
         try {
-            await this._categoryService.deleteByID(Entities.Category, Number.parseInt(id));
+            await this._categoryService.deleteByID(Entities.Category, id);
         }
         catch (err) {
             return;

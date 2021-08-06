@@ -21,8 +21,9 @@ fs
     return (file.indexOf('.') !== 0) && (file !== basename) && (file.slice(-3) === '.ts');
   })
   .forEach((file:string) => {
-    const model = require(path.join(__dirname, file))(sequelize, DataTypes);
-    db[model.name] = model;
+    const model = require(path.join(__dirname, file));
+    const entity = model.default(sequelize, DataTypes);
+    db[entity.name] = entity;
   });
 
 Object.keys(db).forEach(modelName => {
@@ -34,4 +35,4 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-module.exports = db;
+export default db;

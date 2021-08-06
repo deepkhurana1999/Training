@@ -11,9 +11,9 @@ import StaffRoutes from "./staff.routes";
 export function init(router: Router) {
     ProductRoutes.initRoutes(router);
     CategoryRoutes.initRoutes(router);
-    ProductInventoryRoutes.initRoutes(router);
+    // ProductInventoryRoutes.initRoutes(router);
     ProductCategoryRoutes.initRoutes(router);
-    ProductSupplierRoutes.initRoutes(router);
-    StaffRoutes.initRoutes(router);
-    SupplierRoutes.initRoutes(router);
+    // ProductSupplierRoutes.initRoutes(router);
+    // StaffRoutes.initRoutes(router);
+    // SupplierRoutes.initRoutes(router);
 }

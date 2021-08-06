@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import { IProduct } from "../models/product.model";
+import { IProduct as Product }from "../models/product.model";
 import ProductService from "../services/product.service";
 
 export class ProductController {
@@ -14,10 +14,10 @@ export class ProductController {
 
     public async getProducts(req: Request, res: Response) {
         try {
-            const result: IProduct[] | undefined = await this._productService.get();
+            const result: Product[] | null = await this._productService.get();
             if (!result || result.length === 0)
-                return res.status(400).json({message: 'No Content'});
-            return res.json({result});
+                return res.status(400).json({message: 'No Content'});   
+            return res.json(result);
         }
         catch (err) {
             return ProductController.errorResponse(res);
@@ -26,10 +26,10 @@ export class ProductController {
 
     public async getProductByID(req: Request, res: Response) {
         try {
-            const result:IProduct | undefined = await this._productService.getByID(req.params['id']);
+            const result:Product | null = await this._productService.getByID(req.params['id']);
             if (!result)
                 return res.status(204).json();
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return ProductController.errorResponse(res);
@@ -39,7 +39,7 @@ export class ProductController {
     public async saveProduct(req: Request, res: Response) {
         try {
             const result = await this._productService.save(req.body);
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return ProductController.errorResponse(res);
@@ -49,20 +49,20 @@ export class ProductController {
     public async updateProduct(req: Request, res: Response) {
         try {
             const result = await this._productService.update(req.body,req.params['id']);
-            return res.json(JSON.stringify(result));
+            return res.json(result);
         }
         catch (err) {
             return ProductController.errorResponse(res);
         }
     }
 
-    public async deleteProduct(req: Request, res: Response) {
-        try {
-            await this._productService.deleteWithAssociation(req.params['id']);
-            return res.status(200).json();
-        }
-        catch (err) {
-            return ProductController.errorResponse(res);
-        }
-    }
+    // public async deleteProduct(req: Request, res: Response) {
+    //     try {
+    //         await this._productService.deleteWithAssociation(req.params['id']);
+    //         return res.status(200).json();
+    //     }
+    //     catch (err) {
+    //         return ProductController.errorResponse(res);
+    //     }
+    // }
 }

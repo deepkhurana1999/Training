@@ -6,4 +6,5 @@ export enum Entities{
     Product = "Product",
     Category = "Category",
     Inventory = "Inventory",
+    ProductCategories = "ProductCategories"
 }
