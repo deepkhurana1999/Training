@@ -1,5 +1,5 @@
-import IAddress from "../models/previous/address.model";
-import ISupplier from "../models/previous/supplier.model";
+import { ISupplier } from "../models/supplier.model";
+import { IAddress } from "../models/address.model";
 import { Entities } from "../db/entities.db";
 import BaseRepository from "../db/respositories/base.repository";
 
@@ -23,21 +23,21 @@ export default class SupplierService {
         }
     }
 
-    public async saveSupplier(data: ISupplier):Promise<ISupplier | undefined> {
+    public async saveSupplier(data: any):Promise<ISupplier | undefined> {
         try {
-            let address: IAddress = data['Address']!;
+            let address: Partial<IAddress> = data['address']!;
             let storedAddress: IAddress;
-            storedAddress = await this._supplierService.add("Address", Object.values(address), Object.keys(address));
-            let supplier: ISupplier;
+            storedAddress = await this._supplierService.add("Address", address);
+            let supplier: Partial<ISupplier>;
             
             supplier = {
-                Name: data['Name'],
-                PhoneNumber: data['PhoneNumber'],
-                Email: data['Email'],
-                AddressID: storedAddress.ID
+                name: data['name'],
+                phoneNumber: data['phoneNumber'],
+                email: data['email'],
+                addressId: storedAddress.id
             }
             
-            const result:ISupplier = await this._supplierService.add(Entities.Supplier, Object.values(supplier), Object.keys(supplier));
+            const result:ISupplier = await this._supplierService.add(Entities.Supplier, supplier);
             return result;
         }
         catch (err) {
@@ -47,7 +47,7 @@ export default class SupplierService {
 
     public async getSupplierByID(id:string):Promise<ISupplier | undefined> {
         try {
-            const result:ISupplier | undefined = await this._supplierService.getByID(Entities.Supplier, Number.parseInt(id));
+            const result:ISupplier | undefined = await this._supplierService.getByID(Entities.Supplier, id);
             return result;
         }
         catch (err) {
@@ -59,7 +59,7 @@ export default class SupplierService {
     
     public async deleteSupplier(id:string):Promise<void> {
         try {
-            await this._supplierService.deleteByID(Entities.Supplier, Number.parseInt(id));
+            await this._supplierService.deleteByID(Entities.Supplier, id);
         }
         catch (err) {
             return;

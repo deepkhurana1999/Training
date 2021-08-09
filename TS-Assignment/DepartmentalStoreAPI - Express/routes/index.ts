@@ -13,7 +13,7 @@ export function init(router: Router) {
     CategoryRoutes.initRoutes(router);
     ProductInventoryRoutes.initRoutes(router);
     ProductCategoryRoutes.initRoutes(router);
-    // ProductSupplierRoutes.initRoutes(router);
+    ProductSupplierRoutes.initRoutes(router);
     StaffRoutes.initRoutes(router);
-    // SupplierRoutes.initRoutes(router);
+    SupplierRoutes.initRoutes(router);
 }

@@ -89,15 +89,15 @@ export default class ProductService {
         }
     }
 
-    // async getProductSuppliers(id: string): Promise<ISupplier[] | undefined>{
-    //     try {
-    //         const result:ISupplier[] | undefined = await this._productRepository.getProductSuppliers(Number.parseInt(id));
-    //         if (!result)
-    //             return;
-    //         return result;
-    //     }
-    //     catch (err) {
-    //         return;
-    //     }
-    // }
+    async getProductSuppliers(id: string): Promise<any[] | undefined>{
+        try {
+            const result:any[] | undefined = await this._productRepository.getProductSuppliers(id);
+            if (!result)
+                return;
+            return result;
+        }
+        catch (err) {
+            return;
+        }
+    }
 }

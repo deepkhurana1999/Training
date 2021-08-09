@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import ISupplier from "../models/previous/supplier.model";
+import { ISupplier } from "../models/supplier.model";
 import SupplierService from "../services/supplier.service";
 
 export default class SupplierController {

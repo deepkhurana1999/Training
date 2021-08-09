@@ -21,6 +21,10 @@ class Product extends Model<IProduct> implements IProduct {
       through: 'ProductCategories',
       foreignKey: 'productId'
     });
+    Product.belongsToMany(models.Supplier, {
+      through: 'ProductSuppliers',
+      foreignKey: 'productId'
+    });
     Product.hasOne(models.Inventory, {
       foreignKey:'productId'
     });

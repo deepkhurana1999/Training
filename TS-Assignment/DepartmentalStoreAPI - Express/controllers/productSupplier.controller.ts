@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 
-import ISupplier from "../models/previous/supplier.model";
 import ProductService from "../services/product.service";
 
 
@@ -14,7 +13,7 @@ export default class ProductSupplierController {
 
     async getProductSuppliers(req: Request, res: Response) {
         try {
-            const result:ISupplier[] | undefined = await this._productService.getProductSuppliers(req.params['id']);
+            const result:any[] | undefined = await this._productService.getProductSuppliers(req.params['id']);
             if(!result)
                 return res.status(204).json();
             return res.json(result);

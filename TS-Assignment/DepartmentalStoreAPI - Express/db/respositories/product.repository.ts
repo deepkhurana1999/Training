@@ -44,13 +44,15 @@ export default class ProductRepository extends BaseRepository {
         }
     }
 
-    async getProductSuppliers(id: number) {
+    async getProductSuppliers(id: string) {
         try {
             try {
-                const result = await db.query(`Select "Supplier".* from "Product" 
-                                                JOIN "ProductSupplier" on "ProductSupplier"."ProductID" = "Product"."ID" 
-                                                JOIN "Supplier" on "ProductSupplier"."SupplierID" = "Supplier"."ID" 
-                                                where "Product"."ID" = $1`, [id]);
+                const result = await db[Entities.Product].findOne({
+                    where:{ id: id },
+                    include: {
+                        model: db[Entities.Supplier]
+                    }
+                });
                 return result.rows;
             }
             catch (err: any) {
@@ -60,32 +62,5 @@ export default class ProductRepository extends BaseRepository {
         catch (err) {
             console.log(err);
         }
-    }
-
-    async deleteProductAndAssociation(id: number)
-    {
-        const client = await db.connect();
-        try {
-            await client.query("BEGIN");
-            await client.query(`Delete from "ProductCategory" 
-                                where "ProductID"=$1`,[id]);
-            await client.query(`Delete from "Inventory" 
-                                where "ProductID"=$1`,[id]);
-            await client.query(`Delete from "ProductSupplier" 
-                                where "ProductID"=$1`,[id]);
-            await client.query(`Delete from "Product" 
-                                where "ID"=$1`,[id]);
-            await client.query('COMMIT');
-            return;
-        }
-        catch (err: any) {
-            await client.query('ROLLBACK');
-            throw new Error(`DB:DDA Failed to delete data and it's association, due to ${err}`);
-        }
-        finally{
-            if(client)
-                client.release();
-        }
-        
     }
 }
