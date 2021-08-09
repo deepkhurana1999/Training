@@ -1,14 +1,16 @@
 import { Request, Response } from "express";
+import { inject } from "inversify";
+import TYPES from "../types";
 
 import { ISupplier } from "../models/supplier.model";
-import SupplierService from "../services/supplier.service";
+import ISupplierService from "../services/contracts/supplier.contract";
 
 export default class SupplierController {
 
-    private _supplierService: SupplierService;
+    private _supplierService: ISupplierService;
 
-    constructor() {
-        this._supplierService = new SupplierService();
+    constructor(@inject(TYPES.SupplierService) supplierService: ISupplierService) {
+        this._supplierService = supplierService;
     }
 
     static errorResponse(res: Response) {

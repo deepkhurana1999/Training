@@ -1,15 +1,13 @@
 import { Request, Response } from "express";
+import { inject } from "inversify";
 
+import TYPES from "../types";
 import {IStaff} from "../models/staff.model";
-import StaffService from "../services/staff.service";
+import IStaffService from "../services/contracts/staff.contract";
 
 export default class StaffController {
 
-    private _staffService: StaffService;
-
-    constructor() {
-        this._staffService = new StaffService();
-    }
+    constructor(@inject(TYPES.StaffService) private _staffService: IStaffService) { }
 
     static errorResponse(res: Response) {
         console.log('Something happened, think about it!');

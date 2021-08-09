@@ -1,11 +1,13 @@
 import { Request, Response } from "express";
+import { inject } from "inversify";
+import TYPES from "../types";
 
 import { IProduct as Product }from "../models/product.model";
-import ProductService from "../services/product.service";
+import IProductService from "../services/contracts/product.contract";
 
 export class ProductController {
 
-    private _productService: ProductService = new ProductService();
+    constructor(@inject(TYPES.ProductService) private _productService: IProductService) { }
 
     static errorResponse(res: Response) {
         console.log('Something happened, think about it!');
@@ -14,7 +16,7 @@ export class ProductController {
 
     public async getProducts(req: Request, res: Response) {
         try {
-            const result: Product[] | null = await this._productService.get();
+            const result: Product[] | null = await this._productService.getProducts();
             if (!result || result.length === 0)
                 return res.status(400).json({message: 'No Content'});   
             return res.json(result);
@@ -26,7 +28,7 @@ export class ProductController {
 
     public async getProductByID(req: Request, res: Response) {
         try {
-            const result:Product | null = await this._productService.getByID(req.params['id']);
+            const result:Product | null = await this._productService.getProductById(req.params['id']);
             if (!result)
                 return res.status(204).json();
             return res.json(result);
@@ -38,7 +40,7 @@ export class ProductController {
 
     public async saveProduct(req: Request, res: Response) {
         try {
-            const result = await this._productService.save(req.body);
+            const result = await this._productService.saveProduct(req.body);
             return res.json(result);
         }
         catch (err) {
@@ -48,7 +50,7 @@ export class ProductController {
 
     public async updateProduct(req: Request, res: Response) {
         try {
-            const result = await this._productService.update(req.body,req.params['id']);
+            const result = await this._productService.updateProduct(req.body,req.params['id']);
             return res.json(result);
         }
         catch (err) {

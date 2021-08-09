@@ -1,19 +1,24 @@
+import { inject, injectable } from "inversify";
+
+import TYPES from "../types";
 import { ISupplier } from "../models/supplier.model";
 import { IAddress } from "../models/address.model";
 import { Entities } from "../db/entities.db";
 import BaseRepository from "../db/respositories/base.repository";
+import ISupplierService from "./contracts/supplier.contract";
 
-export default class SupplierService {
+@injectable()
+export default class SupplierService implements ISupplierService {
 
-    private _supplierService: BaseRepository;
+    private _supplierRepository: BaseRepository;
 
-    constructor() {
-        this._supplierService = new BaseRepository();
+    constructor(@inject(TYPES.BaseContract) baseRepository: BaseRepository) {
+        this._supplierRepository = baseRepository;
     }
 
     public async getSuppliers():Promise<ISupplier[] | undefined> {
         try {
-            const result: ISupplier[] | undefined = await this._supplierService.get(Entities.Supplier);
+            const result: ISupplier[] | undefined = await this._supplierRepository.get(Entities.Supplier);
             if (!result || result.length === 0)
                 return;
             return result;
@@ -27,7 +32,7 @@ export default class SupplierService {
         try {
             let address: Partial<IAddress> = data['address']!;
             let storedAddress: IAddress;
-            storedAddress = await this._supplierService.add("Address", address);
+            storedAddress = await this._supplierRepository.add("Address", address);
             let supplier: Partial<ISupplier>;
             
             supplier = {
@@ -37,7 +42,7 @@ export default class SupplierService {
                 addressId: storedAddress.id
             }
             
-            const result:ISupplier = await this._supplierService.add(Entities.Supplier, supplier);
+            const result:ISupplier = await this._supplierRepository.add(Entities.Supplier, supplier);
             return result;
         }
         catch (err) {
@@ -47,7 +52,7 @@ export default class SupplierService {
 
     public async getSupplierByID(id:string):Promise<ISupplier | undefined> {
         try {
-            const result:ISupplier | undefined = await this._supplierService.getByID(Entities.Supplier, id);
+            const result:ISupplier | undefined = await this._supplierRepository.getByID(Entities.Supplier, id);
             return result;
         }
         catch (err) {
@@ -59,7 +64,7 @@ export default class SupplierService {
     
     public async deleteSupplier(id:string):Promise<void> {
         try {
-            await this._supplierService.deleteByID(Entities.Supplier, id);
+            await this._supplierRepository.deleteByID(Entities.Supplier, id);
         }
         catch (err) {
             return;

@@ -1,13 +1,18 @@
+import TYPES from '../types';
+import { inject, injectable } from 'inversify';
+
 import { IStaff } from "../models/staff.model";
 import { Entities } from "../db/entities.db";
 import BaseRepository from "../db/respositories/base.repository";
+import IStaffService from "./contracts/staff.contract";
 
-export default class StaffController {
+@injectable()
+export default class StaffService implements IStaffService {
 
     private _staffRepository: BaseRepository;
 
-    constructor() {
-        this._staffRepository = new BaseRepository();
+    constructor(@inject(TYPES.BaseContract) baseRepository: BaseRepository) {
+        this._staffRepository = baseRepository;
     }
 
 

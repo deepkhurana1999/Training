@@ -1,6 +1,11 @@
-import db from "../../models/index";
+import { injectable } from "inversify";
+import "reflect-metadata";
 
-export default class BaseRepository {
+import db from "../../models/index";
+import BaseContract from "./contracts/base.contract";
+
+               @injectable()
+export default class BaseRepository implements BaseContract {
 
     async get(tableName: string) {
         try {

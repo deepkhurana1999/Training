@@ -1,15 +1,13 @@
 import { Request, Response } from "express";
+import { inject } from "inversify";
 
-import CategoryService from "../services/category.service";
+import ICategoryService from "../services/contracts/category.contract";
 import { ICategory } from "../models/category.model";
+import TYPES from "../types";
 
 export class CategoryController {
 
-    private _categoryService: CategoryService;
-
-    constructor() {
-        this._categoryService = new CategoryService();
-    }
+    constructor(@inject(TYPES.ProductService) private _categoryService: ICategoryService) { }
 
     static errorResponse(res: Response) {
         console.log('Something happened, think about it!');
@@ -18,7 +16,7 @@ export class CategoryController {
 
     public async getCategories(req: Request, res: Response) {
         try {
-            const result: ICategory[] | undefined = await this._categoryService.getCategory();
+            const result: ICategory[] | undefined = await this._categoryService.getCategories();
             if (!result || result.length === 0)
                 return res.status(204).json();
             return res.json(result);
