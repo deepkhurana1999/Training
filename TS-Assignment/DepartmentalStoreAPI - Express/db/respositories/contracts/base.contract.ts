@@ -1,5 +1,5 @@
 
-export default interface BaseContract {
+export default interface IBaseRepository {
 
     get(tableName: string): any;
 

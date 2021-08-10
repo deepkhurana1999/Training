@@ -10,11 +10,7 @@ import ISupplierService from "./contracts/supplier.contract";
 @injectable()
 export default class SupplierService implements ISupplierService {
 
-    private _supplierRepository: BaseRepository;
-
-    constructor(@inject(TYPES.BaseContract) baseRepository: BaseRepository) {
-        this._supplierRepository = baseRepository;
-    }
+    constructor(@inject(TYPES.BaseRepository) private _supplierRepository: BaseRepository) { }
 
     public async getSuppliers():Promise<ISupplier[] | undefined> {
         try {

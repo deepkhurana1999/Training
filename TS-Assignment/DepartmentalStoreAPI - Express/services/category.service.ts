@@ -10,11 +10,8 @@ import ICategoryService from "./contracts/category.contract";
                 @injectable()
 export default class CategoryService implements ICategoryService {
 
-    private _categoryRepository: BaseRepository;
 
-    constructor(@inject(TYPES.BaseContract) baseRepository: BaseRepository) {
-        this._categoryRepository = baseRepository;
-    }
+    constructor(@inject(TYPES.BaseRepository) private _categoryRepository: BaseRepository) {  }
 
     public async getCategories():Promise<ICategory[] | undefined> {
         try {

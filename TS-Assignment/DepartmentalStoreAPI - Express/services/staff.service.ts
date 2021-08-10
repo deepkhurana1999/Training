@@ -9,11 +9,7 @@ import IStaffService from "./contracts/staff.contract";
 @injectable()
 export default class StaffService implements IStaffService {
 
-    private _staffRepository: BaseRepository;
-
-    constructor(@inject(TYPES.BaseContract) baseRepository: BaseRepository) {
-        this._staffRepository = baseRepository;
-    }
+    constructor(@inject(TYPES.BaseRepository) private _staffRepository: BaseRepository) {   }
 
 
     public async getStaff(): Promise<IStaff[] | undefined> {

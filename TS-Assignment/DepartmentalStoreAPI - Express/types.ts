@@ -1,10 +1,10 @@
 const TYPES: any = {
-    BaseContract: Symbol('BaseContract'),
-    ProductContract: Symbol('ProductContract'),
-    ProductService: Symbol('IProductService'),
-    CategoryService: Symbol('ICategoryService'),
-    StaffService: Symbol('IStaffService'),
-    SupplierService: Symbol('ISupplierService')
+    BaseRepository: Symbol('BaseRepository'),
+    ProductRepository: Symbol('ProductRepository'),
+    ProductService: Symbol('ProductService'),
+    CategoryService: Symbol('CategoryService'),
+    StaffService: Symbol('StaffService'),
+    SupplierService: Symbol('SupplierService')
 };
 
 export default TYPES;

@@ -2,9 +2,9 @@ import db from "../../models/index";
 
 import BaseRepository from "./base.repository";
 import { Entities } from "../entities.db";
-import ProductContract from "./contracts/product.contract";
+import IProductRepository from "./contracts/product.contract";
 
-export default class ProductRepository extends BaseRepository implements ProductContract {
+export default class ProductRepository extends BaseRepository implements IProductRepository {
 
     async getProductInventory(id: string) {
         

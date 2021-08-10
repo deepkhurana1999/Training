@@ -1,5 +1,5 @@
 
-export default interface ProductContract {
+export default interface IProductRepository {
 
     getProductInventory(id: string): any;
 

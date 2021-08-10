@@ -2,10 +2,10 @@ import { injectable } from "inversify";
 import "reflect-metadata";
 
 import db from "../../models/index";
-import BaseContract from "./contracts/base.contract";
+import IBaseRepository from "./contracts/base.contract";
 
                @injectable()
-export default class BaseRepository implements BaseContract {
+export default class BaseRepository implements IBaseRepository {
 
     async get(tableName: string) {
         try {

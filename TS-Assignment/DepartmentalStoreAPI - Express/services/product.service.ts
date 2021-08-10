@@ -11,11 +11,11 @@ import TYPES from '../types';
 @injectable()
 export default class ProductService implements IProductService{
 
-    private _productRepository: ProductRepository;
+    
 
-    constructor(@inject(TYPES.ProductContract) productRepository: ProductRepository)
+    constructor(@inject(TYPES.ProductRepository) private _productRepository: ProductRepository)
     {
-        this._productRepository = productRepository;
+        
     }
 
     public async getProducts():Promise<IProduct[] | null> {

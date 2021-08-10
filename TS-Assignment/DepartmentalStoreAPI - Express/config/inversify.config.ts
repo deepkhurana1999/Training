@@ -1,9 +1,9 @@
 import { Container } from "inversify";
 
 import TYPES from "../types";
-import BaseContract from "../db/respositories/contracts/base.contract";
+import IBaseRepository from "../db/respositories/contracts/base.contract";
 import BaseRepository from "../db/respositories/base.repository";
-import ProductContract from "../db/respositories/contracts/product.contract";
+import IProductRepository from "../db/respositories/contracts/product.contract";
 import ProductRepository from "../db/respositories/product.repository";
 import ProductService from "../services/product.service";
 import IProductService from "../services/contracts/product.contract";
@@ -16,8 +16,8 @@ import ICategoryService from "../services/contracts/category.contract";
 
 
 var container = new Container();
-container.bind<BaseContract>(TYPES.BaseContract).to(BaseRepository);
-container.bind<ProductContract>(TYPES.ProductContract).to(ProductRepository);
+container.bind<IBaseRepository>(TYPES.BaseRepository).to(BaseRepository);
+container.bind<IProductRepository>(TYPES.ProductRepository).to(ProductRepository);
 container.bind<IProductService>(TYPES.ProductService).to(ProductService);
 container.bind<ICategoryService>(TYPES.CategoryService).to(CategoryService);
 container.bind<IStaffService>(TYPES.StaffService).to(StaffService);
