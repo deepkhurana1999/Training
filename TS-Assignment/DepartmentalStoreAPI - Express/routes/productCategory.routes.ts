@@ -10,7 +10,7 @@ export default class ProductCategoryRoutes {
     public static initRoutes(router: Router) {
 
         router.get("/products/:id/categories", async (req, res, next) => {
-            await new ProductCategoryController(container.get<IProductService>(TYPES.Warrior)).getProductCategory(req, res);
+            await new ProductCategoryController(container.get<IProductService>(TYPES.ProductService)).getProductCategory(req, res);
         });
     }
 
